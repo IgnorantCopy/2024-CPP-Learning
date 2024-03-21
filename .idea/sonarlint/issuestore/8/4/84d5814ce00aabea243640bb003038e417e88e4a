@@ -1,0 +1,5 @@
+
+V	cpp:S5025)":Rewrite the code so that you no longer need this "delete".(Òğêû8×¸ŸÆá1
+r	cpp:S5025%"QReplace the use of "new" with an operation that automatically manages the memory.(ú®¨Ùùÿÿÿÿ8ßŸÆá1
+^	cpp:S5945+"=Use "std::array" or "std::vector" instead of a C-style array.(£ˆé‰øÿÿÿÿ8¼ÔºÆá1
+Ocpp:S836'"41st function call argument is an uninitialized value(¼¦†à8ÓıéÆá1

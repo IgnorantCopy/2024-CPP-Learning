@@ -1,0 +1,6 @@
+
+k	cpp:S5018"JEnsure that the swap function is exception-free and declare it "noexcept".(­äì’úÿÿÿÿ8ùÜìÆá1
+^	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(ÁÏ»ãûÿÿÿÿ8Ú‰ıÆá1
+‚cpp:S995"bMake the type of this parameter a pointer-to-const. The current type of "data" is "struct Data *".(ÁÏ»ãûÿÿÿÿ8ú¦ŒÇá1
+^	cpp:S5945$"=Use "std::array" or "std::vector" instead of a C-style array.(ŞàáÓüÿÿÿÿ8Ëï‹Çá1
+Y	cpp:S5945?"=Use "std::array" or "std::vector" instead of a C-style array.(»Ëùì8®ÿöÆá1

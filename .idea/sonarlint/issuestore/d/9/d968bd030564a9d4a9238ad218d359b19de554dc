@@ -1,0 +1,4 @@
+
+[	cpp:S5025&":Rewrite the code so that you no longer need this "delete".(ú®ç•þÿÿÿÿ8÷ã¤Õå1
+m	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(¹¼®Å8ììœÕå1
+c	cpp:S3519"GOut of bound memory access (access exceeds upper limit of memory block)(±²¤ï8‹Ã´Õå1

@@ -1,0 +1,4 @@
+
+hcpp:S134"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Å°ø¤8÷•òÔå1
+^	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(’ë²ûÿÿÿÿ8—æÈÔå1
+^	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(“ÜÙºøÿÿÿÿ8¶åíÔå1
