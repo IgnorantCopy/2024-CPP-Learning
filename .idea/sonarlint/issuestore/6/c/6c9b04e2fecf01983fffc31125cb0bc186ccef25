@@ -1,0 +1,15 @@
+
+|	cpp:S3230("`Do not assign data members in a constructor. Initialize member "year" in an initialization list.(ú×ğâ8é»‡ƒæ1
+}	cpp:S3230)"aDo not assign data members in a constructor. Initialize member "month" in an initialization list.(ÑÙë›8é»‡ƒæ1
+{	cpp:S3230*"_Do not assign data members in a constructor. Initialize member "day" in an initialization list.(Êéáğ8é»‡ƒæ1
+è	cpp:S3624>"ËExplicitly define or delete the missing copy assignment operator so that it will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(ÿ±ÃÛ8§ôë†æ1
+e	cpp:S4963>"IRemove this class' destructor so that the class follows the rule of Zero.(ÿ±ÃÛ8ÅÖë†æ1
+|	cpp:S3230B"`Do not assign data members in a constructor. Initialize member "name" in an initialization list.(×æ«¹8³ßËƒæ1
+€	cpp:S3230C"_Do not assign data members in a constructor. Initialize member "age" in an initialization list.(±ã¾üÿÿÿÿ8³ßËƒæ1
+€	cpp:S3230D"dDo not assign data members in a constructor. Initialize member "birthday" in an initialization list.(§™û8³ßËƒæ1
+ƒ	cpp:S3230E"bDo not assign data members in a constructor. Initialize member "spouse" in an initialization list.(‚¡ù°üÿÿÿÿ8³ßËƒæ1
+	cpp:S3230I"`Do not assign data members in a constructor. Initialize member "name" in an initialization list.(ßÚŒüúÿÿÿÿ8ªãÏƒæ1
+{	cpp:S3230J"_Do not assign data members in a constructor. Initialize member "age" in an initialization list.( çı­8ªãÏƒæ1
+…	cpp:S3230K"dDo not assign data members in a constructor. Initialize member "birthday" in an initialization list.(ûŸèÏúÿÿÿÿ8ªãÏƒæ1
+V	cpp:S5025{":Rewrite the code so that you no longer need this "delete".(‰¾†ú8è¹‚æ1
+r	cpp:S5025w"QReplace the use of "new" with an operation that automatically manages the memory.(Á¢®Ìúÿÿÿÿ8¸ßËƒæ1

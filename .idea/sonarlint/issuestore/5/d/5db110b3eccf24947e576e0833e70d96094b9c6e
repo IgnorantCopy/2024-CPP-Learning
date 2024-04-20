@@ -1,0 +1,6 @@
+
+„	cpp:S3230
+"cDo not assign data members in a constructor. Initialize member "pointer" in an initialization list.(ä³ÌÈÿÿÿÿÿ8Ëß¸šê1
+=	cpp:S3432"Remove this destructor call.(´Èœ“ýÿÿÿÿ8—ºð•ê1
+V	cpp:S5025'":Rewrite the code so that you no longer need this "delete".(ˆ×‹ 8‰Ø˜•ê1
+[	cpp:S5025(":Rewrite the code so that you no longer need this "delete".(ä÷º’ùÿÿÿÿ8ýÙ“™ê1

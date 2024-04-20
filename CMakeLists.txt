@@ -5,5 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(Lesson01)
 add_subdirectory(Lesson02)
+add_subdirectory(Lesson03)
+add_subdirectory(Lesson04)
 add_subdirectory(_Valley)
 add_subdirectory(_Exercise)

@@ -1,0 +1,8 @@
+
+I	cpp:S1135"4Complete the task associated to this "TODO" comment.(¹­Í•
+6	cpp:S1003
+"Remove this using-directive.(ÉÔ³òÿÿÿÿÿ
+m	cpp:S3539"SRemove this redundant access specifier; it does not change the accessibility level.(îÐÎúüÿÿÿÿ
+‘	cpp:S3624"}Explicitly define or delete the missing destructor and copy assignment operator so that they will not be implicitly provided.(ØœòF
+c	cpp:S4963"ORemove this class' copy constructor so that the class follows the rule of Zero.(ØœòF
+j	cpp:S3490"VUse "=default" instead of the default implementation of this special member functions.(¡‹¡6

@@ -1,0 +1,5 @@
+
+C	cpp:S5827"'Replace the redundant type with "auto".(š•ùÑ8ˆ‹³´ì1
+V	cpp:S5025":Rewrite the code so that you no longer need this "delete".(œ‘ýò8 ý»´ì1
+m	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(š•ùÑ8©ß²´ì1
+I	cpp:S3519"-Out of bound memory access (index is tainted)(˜ÜÞß8¡˜¹´ì1

@@ -1,0 +1,15 @@
+
+í	cpp:S3624
+"ËExplicitly define or delete the missing copy assignment operator so that it will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(¨é–óýÿÿÿÿ8â¬¢™ê1
+p	cpp:S4963
+"ORemove this class' copy constructor so that the class follows the rule of Zero.(¨é–óýÿÿÿÿ8â¬¢™ê1
+	cpp:S3230"cDo not assign data members in a constructor. Initialize member "pointer" in an initialization list.(ƒ¹€Á8øÁ¼”ê1
+	cpp:S3230"cDo not assign data members in a constructor. Initialize member "ref_cnt" in an initialization list.(ÿÇî‰8ùÁ¼”ê1
+	cpp:S3230"cDo not assign data members in a constructor. Initialize member "pointer" in an initialization list.(Ú•åä8ùÁ¼”ê1
+„	cpp:S3230"cDo not assign data members in a constructor. Initialize member "ref_cnt" in an initialization list.(Â‡Çðøÿÿÿÿ8ùÁ¼”ê1
+P	cpp:S1709"/Add the "explicit" keyword to this constructor.(‹Â”¹üÿÿÿÿ8ùÁ¼”ê1
+r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(Â‡Çðøÿÿÿÿ8úÁ¼”ê1
+ÿ	cpp:S3624""âExplicitly define or delete the missing copy constructor and copy assignment operator so that they will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(ñ‚èÆ8­ï¿”ê1
+e	cpp:S4963""IRemove this class' destructor so that the class follows the rule of Zero.(ñ‚èÆ8úÁ¼”ê1
+	cpp:S3230)"^Do not assign data members in a constructor. Initialize member "id" in an initialization list.(‹ªÃÎúÿÿÿÿ8úÁ¼”ê1
+P	cpp:S1709'"/Add the "explicit" keyword to this constructor.(Ã“¤èúÿÿÿÿ8úÁ¼”ê1

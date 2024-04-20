@@ -1,0 +1,13 @@
+
+º	cpp:S4963"xRemove this class' destructor, copy constructor and copy assignment operator so that the class follows the rule of Zero.(Ãÿ´ë8İÎÏÑï1J$58f970b9-cae7-4c47-b8f1-c99fadcde089
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(‡ğÂĞ8İÎÏÑï1J$49936787-d46e-4cb0-80d0-0594d5f04fba
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(­üÓÜ8İÎÏÑï1J$cacba342-8632-40f7-8274-faabcb922c8d
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(‡ğÂĞ8İÎÏÑï1J$a3ae1a6f-d477-42de-87c6-a9a0ed6a5b50
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(­üÓÜ8ŞÎÏÑï1J$7b1e73d1-bebe-4b79-bfc0-0c7918a38efb
+	cpp:S5025(":Rewrite the code so that you no longer need this "delete".(ûÚîüÿÿÿÿ8ßÎÏÑï1J$f9ed8427-bb1c-46e8-aeb6-64eff78fd3c0
+|	cpp:S5025&":Rewrite the code so that you no longer need this "delete".(Ûåï«8ßÎÏÑï1J$25ab0c62-12b7-42b2-a7b8-b015e0c01ece
+“	cpp:S5025+"QReplace the use of "new" with an operation that automatically manages the memory.(‡ğÂĞ8¤ĞßÑï1J$b56f698c-e550-4353-aa48-a4cfa016de5b
+“	cpp:S5025-"QReplace the use of "new" with an operation that automatically manages the memory.(­üÓÜ8¤ĞßÑï1J$667c3a78-fa42-462d-b267-4d2a6910e796
+	cpp:S5025D":Rewrite the code so that you no longer need this "delete".(ûÚîüÿÿÿÿ8¤ĞßÑï1J$0589baa4-d3f7-4f8b-a98c-676376993fab
+|	cpp:S5025B":Rewrite the code so that you no longer need this "delete".(Ûåï«8¥ĞßÑï1J$3ab46844-9d8e-4791-956a-428acff28fee
+‡	cpp:S3230"kDo not use the constructor's initializer list for data member "data". Use the in-class initializer instead.(Ä‘µò8µ¾ğÑï1

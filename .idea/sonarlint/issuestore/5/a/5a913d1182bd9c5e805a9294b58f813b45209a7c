@@ -1,0 +1,4 @@
+
+„	cpp:S3624"βExplicitly define or delete the missing copy constructor and copy assignment operator so that they will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(ϊ§ΠΆόÿÿÿÿ8Πεξ΅θ1
+j	cpp:S4963"IRemove this class' destructor so that the class follows the rule of Zero.(ϊ§ΠΆόÿÿÿÿ8Πεξ΅θ1
+J	cpp:S5817*")This function should be declared "const".(…΅ ¦ώÿÿÿÿ8όον΅θ1

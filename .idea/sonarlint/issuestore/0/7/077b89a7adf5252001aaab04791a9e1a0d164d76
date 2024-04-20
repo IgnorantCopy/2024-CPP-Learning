@@ -1,0 +1,5 @@
+
+d	cpp:S5566"CChange this raw for-loop to a range for-loop or an "std::for_each".(†Ë‘ïúÿÿÿÿ8¶Ìı²ì1
+^	cpp:S5945
+"=Use "std::array" or "std::vector" instead of a C-style array.(„ä†Âÿÿÿÿÿ8¤ö²ì1
+Y	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(áô‰8û‡³ì1

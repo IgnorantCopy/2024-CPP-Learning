@@ -1,0 +1,21 @@
+
+ÿ	cpp:S3624
+"âExplicitly define or delete the missing copy constructor and copy assignment operator so that they will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(Ãÿ´ë8ù°Ø£è1
+e	cpp:S4963
+"IRemove this class' destructor so that the class follows the rule of Zero.(Ãÿ´ë8ä—¢è1
+r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(ö‚íÿÿÿÿÿ8¡ü¢è1
+r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(ô‘Àİşÿÿÿÿ8Î¿¢è1
+[	cpp:S5025#":Rewrite the code so that you no longer need this "delete".(ûÚîüÿÿÿÿ8ê—¢è1
+V	cpp:S5025!":Rewrite the code so that you no longer need this "delete".(Ûåï«8íÆ—¢è1
+„	cpp:S3624I"âExplicitly define or delete the missing copy constructor and copy assignment operator so that they will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(Õ–Ùşÿÿÿÿ8ƒ±Ø£è1
+j	cpp:S4963I"IRemove this class' destructor so that the class follows the rule of Zero.(Õ–Ùşÿÿÿÿ8¬Á™£è1
+m	cpp:S5025T"QReplace the use of "new" with an operation that automatically manages the memory.(Ë ¼·8Éû£è1
+[	cpp:S5025Z":Rewrite the code so that you no longer need this "delete".(ûÚîüÿÿÿÿ8×óƒ£è1
+s	cpp:S5025€"QReplace the use of "new" with an operation that automatically manages the memory.(·óÖùÿÿÿÿ8°Åš£è1
+s	cpp:S5025‚"QReplace the use of "new" with an operation that automatically manages the memory.(™ğœ¿ıÿÿÿÿ8şİ££è1
+\	cpp:S5025 ":Rewrite the code so that you no longer need this "delete".(’ÄáØÿÿÿÿÿ8–Ê¤£è1
+\	cpp:S5025¤":Rewrite the code so that you no longer need this "delete".(Ôúö©ıÿÿÿÿ8—Ê¤£è1
+s	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(òÂ–‹ıÿÿÿÿ8‚³Ê£è1
+s	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(ßêäÅøÿÿÿÿ8­îÎ£è1
+s	cpp:S5025—"QReplace the use of "new" with an operation that automatically manages the memory.(²•Î²ûÿÿÿÿ8©¡Ï£è1
+W	cpp:S5025¢":Rewrite the code so that you no longer need this "delete".(’·ºò8±í¥£è1
