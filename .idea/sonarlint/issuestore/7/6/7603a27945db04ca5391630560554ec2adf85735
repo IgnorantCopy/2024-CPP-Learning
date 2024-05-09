@@ -1,0 +1,13 @@
+
+>	cpp:S1068"private field 'x' is not used(èé‹üûÿÿÿÿ8À©Í±ğ1
+P	cpp:S1709"/Add the "explicit" keyword to this constructor.(¹õÈøÿÿÿÿ8Ê©Í±ğ1
+E	cpp:S5817")This function should be declared "const".(÷¹’å8Ë©Í±ğ1
+å	cpp:S3624"ÃExplicitly define or delete the missing copy constructor so that it will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(Æé¡ôøÿÿÿÿ8Í©Í±ğ1
+‡	cpp:S4963"fRemove this class' destructor and copy assignment operator so that the class follows the rule of Zero.(Æé¡ôøÿÿÿÿ8Í©Í±ğ1
+K	cpp:S1709#"/Add the "explicit" keyword to this constructor.(Æ´„ô8Í©Í±ğ1
+m	cpp:S5025%"QReplace the use of "new" with an operation that automatically manages the memory.(ñ¯Š›8Î©Í±ğ1
+=	cpp:S3432-"Remove this destructor call.(è²ÍŒùÿÿÿÿ8Ò©Í±ğ1
+m	cpp:S50257"QReplace the use of "new" with an operation that automatically manages the memory.(ñ¯Š›8Ò©Í±ğ1
+ccpp:S912C"HRemove any side effects from right hand operands of logical && operator.(­Ì†8Ò©Í±ğ1
+V	cpp:S5025D":Rewrite the code so that you no longer need this "delete".(ôº¯¥8Ò©Í±ğ1
+V	cpp:S5025E":Rewrite the code so that you no longer need this "delete".(‚²²Š8Ò©Í±ğ1

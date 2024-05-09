@@ -27,10 +27,18 @@ public:
 };
 
 class PtrA {
-    int *counter;
+    int *counter = nullptr;
     A *ptr;
 public:
-    PtrA(A *p) : ptr(p), counter(new int(1)) {}
+    PtrA() : ptr(nullptr) {}
+    
+    PtrA(A *p) : ptr(p) {
+        if (p != nullptr) {
+            counter = new int(1);
+        } else {
+            counter = nullptr;
+        }
+    }
     
     PtrA &operator=(const PtrA &other) {
         if (this != &other) {
@@ -39,9 +47,13 @@ public:
                 counter = nullptr;
                 ptr = nullptr;
             } else {
-                ptr = other.ptr;
                 counter = other.counter;
-                ++(*other.counter);
+                ptr = other.ptr;
+                if (counter != nullptr) {
+                    ++(*counter);
+                } else {
+                    counter = new int(1);
+                }
             }
         }
         return *this;

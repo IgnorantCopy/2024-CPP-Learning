@@ -25,6 +25,11 @@ D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson04/homework/CMakeFiles/Matrix
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson04/homework/CMakeFiles/Plant.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson04/homework/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson04/homework/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/CMakeFiles/01-inheritance.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/CMakeFiles/02-polymorphic.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/CMakeFiles/03-abstract.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/Intro/CMakeFiles/P5082.dir

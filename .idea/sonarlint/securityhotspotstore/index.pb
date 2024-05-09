@@ -87,3 +87,13 @@ I
 Lesson04/homework/Plant.h,9\7\9784adc917701513bbc73df33bbee255dd1cf380
 K
 Lesson04/homework/Plant.cpp,2\d\2df3c418bfdad3d3a7a4f3c10a7e00ef5d77605d
+R
+"Lesson04/homework/SmartPointer.cpp,7\6\7603a27945db04ca5391630560554ec2adf85735
+G
+Lesson05/CMakeLists.txt,9\d\9d3fdd48f8db038e0c5656f3397cbf70d79e8e6c
+K
+Lesson05/01-inheritance.cpp,a\6\a6be369b24ede1edd64dfb67d0b766a868001307
+K
+Lesson05/02-polymorphic.cpp,8\9\89287b74edbc448023e2e1f4392e5f36c6fbd3a9
+H
+Lesson05/03-abstract.cpp,2\b\2ba8962518b9d30509cb36fb3b524deb319257bc

@@ -1,0 +1,5 @@
+
+	cpp:S5945Y"=Use "std::array" or "std::vector" instead of a C-style array.(ª¡„¾8¶¥ ò1J$5e0e7377-94da-49db-b861-b2622dd9042a
+“	cpp:S5025f"QReplace the use of "new" with an operation that automatically manages the memory.(î…¶¿8Š¢½ ò1J$eaa0cdb8-8e20-4247-92ef-3e116b6ce20c
+˜	cpp:S5025j"QReplace the use of "new" with an operation that automatically manages the memory.(ªÿ“îúÿÿÿÿ8¾ß½ ò1J$e1e210d8-c4a7-4d46-b509-45e00ed09416
+“	cpp:S5025n"QReplace the use of "new" with an operation that automatically manages the memory.(¾ğ8 ’¾ ò1J$1d467495-6564-406a-9e3a-cba02434ccf2

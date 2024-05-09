@@ -1,0 +1,10 @@
+
+i	cpp:S1117'"'declaration shadows a field of 'Animal'(§ƒßÃ8„Ï½£ñ1J$a4d78d6b-dacd-4b61-844d-cc86513d7cd1
+h	cpp:S1117("'declaration shadows a field of 'Animal'(â…Ì8’Ú®¤ñ1J$7fca7c8c-a31b-4ff9-b299-48abe7d515c7
+n	cpp:S1117A"'declaration shadows a field of 'Person'(ı›á»üÿÿÿÿ8×åÓ£ñ1J$d7dd3638-b4a4-4743-8182-c97ceb3da0d1
+n	cpp:S1117B"'declaration shadows a field of 'Person'(«ÏÕüÿÿÿÿ8“Ú®¤ñ1J$946399ec-7cbb-4053-b9f4-2faf606aa4f0
+k	cpp:S1117O"$declaration shadows a field of 'Pet'(ı›á»üÿÿÿÿ8øóÖ£ñ1J$230ff3e2-1937-44f2-a940-8b5b8bd7705a
+k	cpp:S1117P"$declaration shadows a field of 'Pet'(ÂÃÂ»ÿÿÿÿÿ8“Ú®¤ñ1J$635d53a9-ca76-4c65-a985-06d98a830fd6
+k	cpp:S1117_"$declaration shadows a field of 'Cat'(‰¥‰ıÿÿÿÿ8“Ú®¤ñ1J$350a71d6-79df-44df-a303-2a5f5b8fc591
+l	cpp:S3656"+Member variables should not be "protected".(ıÕ¶T8äã„ò1J$228a8e43-dccf-43c0-b983-7fd60a424813
+Í	cpp:S1242f"…Rename this member function so that it doesn't hide an inherited non-virtual function, or make it virtual in the base class "Animal".(¼¹Ñúıÿÿÿÿ8°Ú®¤ñ1J$73cc0813-4748-4386-833f-c05b25ab5194
