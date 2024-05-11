@@ -172,6 +172,12 @@
 			"path" : "Lesson05/CMakeLists.txt"
 		},
 		{
+			"path" : "Lesson05/homework/CMakeLists.txt"
+		},
+		{
+			"path" : "Lesson06/CMakeLists.txt"
+		},
+		{
 			"path" : "_Valley/CMakeLists.txt"
 		},
 		{

@@ -1,0 +1,14 @@
+
+n	cpp:S5827"'Replace the redundant type with "auto".(‚Ùš£ûÿÿÿÿ8ùÄƒ­ö1J$39bd77f3-18ff-4793-8e75-fe4052a4acdb
+˜	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(‚Ùš£ûÿÿÿÿ8ùÄƒ­ö1J$fe265c13-d0b6-43ba-b79c-79618901cea1
+n	cpp:S5827&"'Replace the redundant type with "auto".(‚Ùš£ûÿÿÿÿ8Ã¯­ö1J$95b7fc88-b1d8-4c37-ac88-58ff828da8b5
+˜	cpp:S5025&"QReplace the use of "new" with an operation that automatically manages the memory.(‚Ùš£ûÿÿÿÿ8Ã¯­ö1J$2ba49ca8-6c31-4d92-828d-33d22039a20c
+|	cpp:S5025B":Rewrite the code so that you no longer need this "delete".(à±şñ8†­ö1J$ebe3eff6-52e9-4b3a-b103-b071587deb64
+|	cpp:S5025O":Rewrite the code so that you no longer need this "delete".(à±şñ8¾Ê ­ö1J$a30b7ed7-282c-4d71-a9c3-7d414d535c3f
+|	cpp:S5025]":Rewrite the code so that you no longer need this "delete".(à±şñ8á «­ö1J$4a246a79-7790-4507-b96b-16a4d2a4cbde
+n	cpp:S5827i"'Replace the redundant type with "auto".(‚Ùš£ûÿÿÿÿ8â «­ö1J$8d9e07ad-fe08-4a06-ab9c-411631504457
+˜	cpp:S5025i"QReplace the use of "new" with an operation that automatically manages the memory.(‚Ùš£ûÿÿÿÿ8ã «­ö1J$1d6ecd1b-847e-47ed-901d-3f7a4393fda7
+|	cpp:S5025…":Rewrite the code so that you no longer need this "delete".(ƒÕŸ+8µæÄ­ö1J$388fe73e-cee8-4ab3-9440-82058c2c155c
+}	cpp:S5025´":Rewrite the code so that you no longer need this "delete".(à±şñ8õùğ­ö1J$04cee3e8-94c1-4bf2-a92a-bc7b6d264881
+d	cpp:S3432½"Remove this destructor call.(¤¹°˜ùÿÿÿÿ8º£ù­ö1J$ecface9f-0f96-410f-82c7-7d7e18560d58
+q	cpp:S3584n"0Potential leak of memory pointed to by 'newNode'(¸®Ã'8‰¡«­ö1J$940267c6-0cbd-4589-8ac0-39d73d94a382

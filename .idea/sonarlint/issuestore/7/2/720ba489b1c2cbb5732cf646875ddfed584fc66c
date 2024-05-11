@@ -1,0 +1,11 @@
+
+p	cpp:S1117")declaration shadows a field of 'Employee'(ƒ©²ôıÿÿÿÿ8¡ŸÛäõ1J$783458df-29b0-4f10-901d-9d0bc0c13992
+k	cpp:S1117"")declaration shadows a field of 'Employee'(¬—Øˆ8¢ŸÛäõ1J$cb76a721-85a0-42e1-b93e-e979f14e8b0f
+o	cpp:S1117N"(declaration shadows a field of 'Company'(ƒ©²ôıÿÿÿÿ8Ñøöäõ1J$7bd131a5-f6de-4908-b7f3-344277242156
+¤	cpp:S3624)"âExplicitly define or delete the missing copy constructor and copy assignment operator so that they will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(Ğ‚Í8‹ºøäõ1J$b7e7fb4e-a80f-4bbd-ba3f-4d0e39901210
+Š	cpp:S4963)"IRemove this class' destructor so that the class follows the rule of Zero.(Ğ‚Í8ÄÄçäõ1J$482ff6e8-e079-417e-8682-97e75f9ca28e
+	cpp:S5945+"=Use "std::array" or "std::vector" instead of a C-style array.(Äğ»ÿ8Äîáäõ1J$163972fc-ce5b-431a-b883-958f25245a98
+¬	cpp:S32300"jDo not assign data members in a constructor. Initialize member "numOfEmployees" in an initialization list.(²Ï€–8óºåäõ1J$4b8b5850-e189-4885-8102-4035c9450cf2
+v	cpp:S1709/"/Add the "explicit" keyword to this constructor.(ö×Ì°øÿÿÿÿ8è÷âäõ1J$4d9b30f5-9123-491b-bd03-5fce1f788dd8
+}	cpp:S5025Œ":Rewrite the code so that you no longer need this "delete".(ìŸ®Œ8ôĞ€åõ1J$f258177d-db17-42c8-8b11-764b12126410
+™	cpp:S5025‚"QReplace the use of "new" with an operation that automatically manages the memory.(ô¾ŸÓüÿÿÿÿ8ùĞ€åõ1J$14edd66c-9e23-4547-8e4c-f9546e00f2c8

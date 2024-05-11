@@ -1,0 +1,1 @@
+add_executable(01-aggregation 01-aggregation.cpp)

@@ -1,0 +1,21 @@
+
+›	cpp:S5276"Yimplicit conversion loses integer precision: 'size_t' (aka 'unsigned long long') to 'int'(ìÈ‡8¸Øù–ö1J$4b7c8f67-1e0f-43f3-af14-ffe88ec16f53
+›	cpp:S52768"Yimplicit conversion loses integer precision: 'size_t' (aka 'unsigned long long') to 'int'(¿ÃóË8èÓÿ–ö1J$0d378a9e-4fa9-4714-a3f8-0e0df6e3f2e9
+¦	cpp:S3230"_Do not assign data members in a constructor. Initialize member "len" in an initialization list.(¸½àüÿÿÿÿ8¥¦ü–ö1J$914ce993-79f6-4a34-bdb8-5af55625ef48
+£	cpp:S3230"aDo not assign data members in a constructor. Initialize member "str_p" in an initialization list.(œÜÒ˜8ÊÌ¼—ö1J$4c9caca9-1b20-42cd-87c1-7616ee141026
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(œÜÒ˜8–í•ö1J$23577535-17d6-4ef4-a2fd-cdb149ff0475
+˜	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(‹Ó¶Üùÿÿÿÿ8ó”ñ•ö1J$35ccb4c8-f236-4cf5-9f80-e8e120360abd
+¡	cpp:S3230"_Do not assign data members in a constructor. Initialize member "len" in an initialization list.(®á„Ñ8é¤¼—ö1J$ba948120-543c-49e7-8a56-f64667db055c
+˜	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(‹Ó¶Üùÿÿÿÿ8Ì¸ü•ö1J$6fdc5031-6409-4397-8daf-b469a162ab02
+|	cpp:S5025":Rewrite the code so that you no longer need this "delete".(»ÿ›Ì8€ğò•ö1J$7d41a5dc-3ea8-4974-9bd4-6fd08ca90328
+k	cpp:S5817!")This function should be declared "const".(¼›¨ÿ8õ¤¿˜ö1J$ea85532d-dc58-4aa0-9d9a-46fa781b2f1c
+|	cpp:S5025/":Rewrite the code so that you no longer need this "delete".(»ÿ›Ì8´ïó•ö1J$34de5caa-ff02-4b37-a391-6365c58a8bf9
+“	cpp:S5025("QReplace the use of "new" with an operation that automatically manages the memory.(œÜÒ˜8ñÔ…–ö1J$64776b94-1c52-48d3-9c29-301a8d688ef1
+˜	cpp:S50251"QReplace the use of "new" with an operation that automatically manages the memory.(‹Ó¶Üùÿÿÿÿ8•Í©–ö1J$b6074bdd-4250-4bcc-81a6-71aa5c32cf36
+|	cpp:S50257":Rewrite the code so that you no longer need this "delete".(»ÿ›Ì8ñÔ…–ö1J$d7753ae1-74c6-4a1c-a85c-37c85e6e61a9
+˜	cpp:S50259"QReplace the use of "new" with an operation that automatically manages the memory.(‹Ó¶Üùÿÿÿÿ8ÍÌ¼—ö1J$c8458ca8-1f50-4bbe-b12d-5a250af89766
+i	cpp:S5827F"'Replace the redundant type with "auto".(Å‡“¦8”Í©–ö1J$e6a631e8-c4b5-441a-9f5a-60d8d3588329
+	cpp:S5025J":Rewrite the code so that you no longer need this "delete".(×¬‘‡ûÿÿÿÿ8•Í©–ö1J$c93aad85-b95b-4e55-8f69-f14d89cf640e
+“	cpp:S5025F"QReplace the use of "new" with an operation that automatically manages the memory.(Å‡“¦8ÖÙ¡˜ö1J$17343335-d449-45bf-ba14-f2062e0ed4c0
+^	cpp:S3432g"Remove this destructor call.(ë‚Ë›8ĞñÙ—ö1J$4d540c5f-9ad7-45af-a889-7b429594326c
+c	cpp:S3432l"Remove this destructor call.(—ÚÑşÿÿÿÿ8ĞñÙ—ö1J$f834ce7a-f476-4eeb-bf59-9b9ef6b15ec1

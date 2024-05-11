@@ -4,8 +4,8 @@
 5	1306	7321193494105381	Lesson01/CMakeFiles/01-Hello.dir/01-Hello.cpp.obj	25a45e8193e7bfcc
 497	640	7315142378505844	Lesson01/MonotonicStack.exe	c47d6001a4b781f4
 552	739	7351352502399771	Lesson04/02-lambda.exe	1201dc6f53bd326e
-3	469	7338542802229592	_Exercise/03/CMakeFiles/3-2.dir/3-2.cpp.obj	6bc899e24ee1ff20
 1307	2129	7321193502304138	Lesson01/01-Hello.exe	b8e20fe29d59676f
+3	469	7338542802229592	_Exercise/03/CMakeFiles/3-2.dir/3-2.cpp.obj	6bc899e24ee1ff20
 1428	2240	7319553595755531	Lesson01/02-inference.exe	d467f5d6adc2ada7
 529	729	7333232858462891	Lesson03/03-friend.exe	c3062f7e71a01f9b
 3	92	7319554691772669	Lesson01/CMakeFiles/new.dir/new.c.obj	d4e1e20d3648f650
@@ -25,10 +25,13 @@
 518	672	7350641871594647	_Exercise/04/4-2.exe	b661dab13d93c1b0
 622	812	7326214874035703	_Exercise/02/2-3.exe	bece866863f36dd0
 3	488	7344413396538077	Lesson03/CMakeFiles/01-class.dir/01-class.cpp.obj	a95d518eaa6eb25a
+11	1572	7369492966750970	Lesson06/CMakeFiles/01-aggregation.dir/01-aggregation.cpp.obj	8901dc279b8d224f
 365	503	7338409514356825	_Exercise/03/3-1.exe	609ba18f37e40767
 1305	2252	7333209222033980	Lesson03/01-class.exe	37724f6df8f400d5
 0	396	7334125608791635	Lesson03/homework/CMakeFiles/myStack.dir/myStack.cpp.obj	bea7c2f48b0fcd4f
+8	628	7360002049713632	Lesson05/CMakeFiles/03-abstract.dir/03-abstract.cpp.obj	3a6e682be7463502
 397	554	7334125610377123	Lesson03/homework/myStack.exe	6ea539cb72746a4d
+10	414	7370554742818902	Lesson05/homework/CMakeFiles/String.dir/String.cpp.obj	c7b45670a118b899
 516	720	7338270312025648	Lesson03/homework/meQueue.exe	51f235528d353279
 0	515	7338270310028478	Lesson03/homework/CMakeFiles/meQueue.dir/myQueue.cpp.obj	6deb04bda894080a
 5	364	7338409513019227	_Exercise/03/CMakeFiles/3-1.dir/3-1.cpp.obj	86ed028a98c034dd
@@ -48,6 +51,7 @@
 22	582	7345283091837274	Lesson04/CMakeFiles/01-operatorOverride.dir/01-operatorOverride.cpp.obj	431597ad20a9f067
 583	802	7345283093999128	Lesson04/01-operatorOverride.exe	74e96d6934c6ba92
 11	582	7351348654726227	Lesson04/CMakeFiles/01-operatorOverload.dir/01-operatorOverload.cpp.obj	a4526c2e21f1b0b6
+1574	2564	7369492976661636	Lesson06/01-aggregation.exe	6863d6a53db9c89a
 583	794	7351348656839424	Lesson04/01-operatorOverload.exe	6cf8b90516c07df2
 6	517	7350641870068984	_Exercise/04/CMakeFiles/4-2.dir/4-2.cpp.obj	e1c9a3f8f8e012f3
 508	670	7350381303452971	_Exercise/04/4-1.exe	6cbe1f316e106ec6
@@ -60,5 +64,12 @@
 533	789	7353038211488310	Lesson04/homework/Plant.exe	358d1cd440d8cb48
 12	415	7354991495586965	Lesson04/homework/CMakeFiles/SmartPointer.dir/SmartPointer.cpp.obj	3739b3130c894042
 622	825	7359976827070728	Lesson05/02-polymorphic.exe	3f058406c3022450
-8	628	7360002049713632	Lesson05/CMakeFiles/03-abstract.dir/03-abstract.cpp.obj	3a6e682be7463502
 629	861	7360002052009612	Lesson05/03-abstract.exe	497612d292c8d4ee
+10	406	7370537386462481	Lesson06/CMakeFiles/String.dir/__/Lesson05/homework/String.cpp.obj	8ff07c6881e0d4c2
+10	414	7370955156623631	Lesson05/homework/CMakeFiles/Vector.dir/Vector.cpp.obj	d932a93eb28299e6
+416	573	7370554744378502	Lesson05/homework/String.exe	b23505b3c5fdb393
+415	601	7370955158488718	Lesson05/homework/Vector.exe	c1728428925faf48
+6	648	7371063644931152	Lesson05/homework/CMakeFiles/Map.dir/Map.cpp.obj	58427208448154a5
+649	874	7371063647152015	Lesson05/homework/Map.exe	387ac41fcf5a8e56
+10	559	7371091044732670	Lesson05/homework/CMakeFiles/Map.dir/Map.cpp.obj	58427208448154a5
+560	753	7371091046645199	Lesson05/homework/Map.exe	387ac41fcf5a8e56

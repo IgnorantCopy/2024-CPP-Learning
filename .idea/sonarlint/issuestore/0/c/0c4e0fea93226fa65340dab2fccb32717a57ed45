@@ -1,0 +1,4 @@
+
+…	cpp:S1236">Change the return type of this assignment operator to "List&".(ó²Â¥øÿÿÿÿ8¾û£¬ö1J$bcecd274-1d70-4860-8b7c-330b12e52a47
+®	cpp:S4963"lRemove this class' copy constructor and copy assignment operator so that the class follows the rule of Zero.(·±Ý£8¿û£¬ö1J$57225ad2-bb00-4439-8c20-8d91b4bd0880
+J	cpp:S5817")This function should be declared "const".(¸¹à°ûÿÿÿÿ8‡°Î­ö1

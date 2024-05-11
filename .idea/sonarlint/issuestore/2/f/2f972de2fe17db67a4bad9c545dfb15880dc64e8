@@ -1,0 +1,12 @@
+
+	cpp:S1235"='LinearList' has virtual functions but non-virtual destructor(¾‹“Æ8’ó²æõ1J$11957595-e3a0-41bd-a149-a67a2bcf8a29
+{	cpp:S1235†"8'Queue' has virtual functions but non-virtual destructor(ÓŠŞÚ8“ó²æõ1J$22c6dbc0-3b7b-489f-bf60-a33985a739b7
+¤	cpp:S3624"âExplicitly define or delete the missing copy constructor and copy assignment operator so that they will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(òƒôO8«›æõ1J$60de2c90-9fd4-4b9e-8134-a0bec5dcc917
+Š	cpp:S4963"IRemove this class' destructor so that the class follows the rule of Zero.(òƒôO8µíæõ1J$c0b44801-6ce7-43bd-9f13-9f55dd08beb7
+|	cpp:S5025 ":Rewrite the code so that you no longer need this "delete".(à±şñ8¢·áåõ1J$65333cce-9e0f-41d3-8999-18012469f093
+i	cpp:S5827/"'Replace the redundant type with "auto".(¦ÄÑ8¹šÚåõ1J$e7c51f11-587a-4811-b2d8-9e1385566393
+“	cpp:S5025/"QReplace the use of "new" with an operation that automatically manages the memory.(¦ÄÑ8ºšÚåõ1J$2341911a-2ab9-4944-a44a-18b1aedce264
+{	cpp:S5025K":Rewrite the code so that you no longer need this "delete".( Ô·}8ò³æõ1J$41eec92c-bdd7-4dd2-8575-c9fdf28314ea
+n	cpp:S5827p"'Replace the redundant type with "auto".(ÚÑÇçøÿÿÿÿ8ì«—æõ1J$d65a0a59-1515-43f9-bd21-1a2fb3229667
+˜	cpp:S5025p"QReplace the use of "new" with an operation that automatically manages the memory.(ÚÑÇçøÿÿÿÿ8í«—æõ1J$471e82c9-7c5a-479c-83e2-76792577ffe5
+€	cpp:S1155—"=Use "empty()" to check whether the container is empty or not.(… û8ûŠ°æõ1J$4ea03480-9cee-4d9b-813f-6165c0935d23

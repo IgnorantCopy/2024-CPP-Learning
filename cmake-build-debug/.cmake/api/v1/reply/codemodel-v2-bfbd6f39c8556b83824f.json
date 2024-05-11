@@ -13,8 +13,9 @@
 						3,
 						5,
 						7,
-						8,
-						10
+						9,
+						10,
+						12
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -22,7 +23,11 @@
 						"string" : "3.27"
 					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
 				},
 				{
 					"build" : "Lesson01",
@@ -37,7 +42,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						5
+						7
 					]
 				},
 				{
@@ -52,7 +57,7 @@
 					"source" : "Lesson02",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -71,9 +76,9 @@
 					"source" : "Lesson03",
 					"targetIndexes" : 
 					[
-						1,
-						7,
-						10
+						2,
+						9,
+						12
 					]
 				},
 				{
@@ -88,8 +93,8 @@
 					"source" : "Lesson03/homework",
 					"targetIndexes" : 
 					[
-						25,
-						26
+						32,
+						33
 					]
 				},
 				{
@@ -108,8 +113,8 @@
 					"source" : "Lesson04",
 					"targetIndexes" : 
 					[
-						3,
-						6
+						4,
+						8
 					]
 				},
 				{
@@ -124,13 +129,17 @@
 					"source" : "Lesson04/homework",
 					"targetIndexes" : 
 					[
-						18,
 						23,
-						24
+						28,
+						29
 					]
 				},
 				{
 					"build" : "Lesson05",
+					"childIndexes" : 
+					[
+						8
+					],
 					"jsonFile" : "directory-Lesson05-Debug-664bc0f99e1cad975022.json",
 					"minimumCMakeVersion" : 
 					{
@@ -141,16 +150,50 @@
 					"source" : "Lesson05",
 					"targetIndexes" : 
 					[
-						2,
-						8,
-						9
+						3,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "Lesson05/homework",
+					"jsonFile" : "directory-Lesson05.homework-Debug-0830f23bc121328cd1ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "Lesson05/homework",
+					"targetIndexes" : 
+					[
+						20,
+						21,
+						22,
+						30,
+						31
+					]
+				},
+				{
+					"build" : "Lesson06",
+					"jsonFile" : "directory-Lesson06-Debug-9f70ae4e18b82850bc79.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lesson06",
+					"targetIndexes" : 
+					[
+						1
 					]
 				},
 				{
 					"build" : "_Valley",
 					"childIndexes" : 
 					[
-						9
+						11
 					],
 					"jsonFile" : "directory-_Valley-Debug-4730bc0b571853aa8776.json",
 					"minimumCMakeVersion" : 
@@ -168,24 +211,24 @@
 					{
 						"string" : "3.27"
 					},
-					"parentIndex" : 8,
+					"parentIndex" : 10,
 					"projectIndex" : 0,
 					"source" : "_Valley/Intro",
 					"targetIndexes" : 
 					[
-						19,
-						20,
-						21,
-						22
+						24,
+						25,
+						26,
+						27
 					]
 				},
 				{
 					"build" : "_Exercise",
 					"childIndexes" : 
 					[
-						11,
-						12,
-						13
+						13,
+						14,
+						15
 					],
 					"jsonFile" : "directory-_Exercise-Debug-8785459be368a718bd86.json",
 					"minimumCMakeVersion" : 
@@ -203,14 +246,14 @@
 					{
 						"string" : "3.27"
 					},
-					"parentIndex" : 10,
+					"parentIndex" : 12,
 					"projectIndex" : 0,
 					"source" : "_Exercise/02",
 					"targetIndexes" : 
 					[
-						11,
-						12,
-						13
+						13,
+						14,
+						15
 					]
 				},
 				{
@@ -220,13 +263,13 @@
 					{
 						"string" : "3.27"
 					},
-					"parentIndex" : 10,
+					"parentIndex" : 12,
 					"projectIndex" : 0,
 					"source" : "_Exercise/03",
 					"targetIndexes" : 
 					[
-						14,
-						15
+						16,
+						17
 					]
 				},
 				{
@@ -236,13 +279,13 @@
 					{
 						"string" : "3.27"
 					},
-					"parentIndex" : 10,
+					"parentIndex" : 12,
 					"projectIndex" : 0,
 					"source" : "_Exercise/04",
 					"targetIndexes" : 
 					[
-						16,
-						17
+						18,
+						19
 					]
 				}
 			],
@@ -265,7 +308,9 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14,
+						15
 					],
 					"name" : "2024_CPP_Learning",
 					"targetIndexes" : 
@@ -296,7 +341,14 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33
 					]
 				}
 			],
@@ -310,6 +362,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 9,
+					"id" : "01-aggregation::@313c2d4a8b52375783e9",
+					"jsonFile" : "target-01-aggregation-Debug-5e1378465e3cbc83cbd4.json",
+					"name" : "01-aggregation",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "01-class::@32762c7c9cc279b4244e",
 					"jsonFile" : "target-01-class-Debug-1baaab0104cd527e73bf.json",
@@ -319,7 +378,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "01-inheritance::@93998184b4aba35339ab",
-					"jsonFile" : "target-01-inheritance-Debug-41ef4520608e512fb1e2.json",
+					"jsonFile" : "target-01-inheritance-Debug-c06a2fd52c965e5655d6.json",
 					"name" : "01-inheritance",
 					"projectIndex" : 0
 				},
@@ -335,6 +394,13 @@
 					"id" : "01-stack::@395cf13e76d59e350c33",
 					"jsonFile" : "target-01-stack-Debug-2e7028eb88db9ae44d6b.json",
 					"name" : "01-stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-composition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-composition-Debug-94dbbd69149b6df8f07d.json",
+					"name" : "02-composition",
 					"projectIndex" : 0
 				},
 				{
@@ -361,14 +427,14 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "02-polymorphic::@93998184b4aba35339ab",
-					"jsonFile" : "target-02-polymorphic-Debug-047b25ad1b4317766043.json",
+					"jsonFile" : "target-02-polymorphic-Debug-0ad4a5e379903c712c3c.json",
 					"name" : "02-polymorphic",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "03-abstract::@93998184b4aba35339ab",
-					"jsonFile" : "target-03-abstract-Debug-8313e37e82ed9b3b62fd.json",
+					"jsonFile" : "target-03-abstract-Debug-abb73951ee24099938e2.json",
 					"name" : "03-abstract",
 					"projectIndex" : 0
 				},
@@ -380,52 +446,73 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 13,
 					"id" : "2-1::@75d131bf04acf3beb909",
 					"jsonFile" : "target-2-1-Debug-493345850a2b7e0fd2d1.json",
 					"name" : "2-1",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 13,
 					"id" : "2-2::@75d131bf04acf3beb909",
 					"jsonFile" : "target-2-2-Debug-1e0a1a751b105c377595.json",
 					"name" : "2-2",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 13,
 					"id" : "2-3::@75d131bf04acf3beb909",
 					"jsonFile" : "target-2-3-Debug-0a1aaaeb93b9b4281101.json",
 					"name" : "2-3",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 14,
 					"id" : "3-1::@11724b86b97e74ddd6c4",
 					"jsonFile" : "target-3-1-Debug-275e5f7f9a17ff6817f0.json",
 					"name" : "3-1",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 14,
 					"id" : "3-2::@11724b86b97e74ddd6c4",
 					"jsonFile" : "target-3-2-Debug-374858ce3310bbc10a1e.json",
 					"name" : "3-2",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 15,
 					"id" : "4-1::@1d3e4932cd67eda474f8",
 					"jsonFile" : "target-4-1-Debug-b1b867921643411f8c32.json",
 					"name" : "4-1",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 15,
 					"id" : "4-2::@1d3e4932cd67eda474f8",
 					"jsonFile" : "target-4-2-Debug-170b7cc109c03edadc4d.json",
 					"name" : "4-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "List::@e298dc57068adf7d5a23",
+					"jsonFile" : "target-List-Debug-90a2d312d86c9fbfee51.json",
+					"name" : "List",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ListNode::@e298dc57068adf7d5a23",
+					"jsonFile" : "target-ListNode-Debug-838bbd40b05b43a2e4f7.json",
+					"name" : "ListNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Map::@e298dc57068adf7d5a23",
+					"jsonFile" : "target-Map-Debug-7dc3f6facaa4f5cee049.json",
+					"name" : "Map",
 					"projectIndex" : 0
 				},
 				{
@@ -436,28 +523,28 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 11,
 					"id" : "P1035::@9a0199e84b384777d5df",
 					"jsonFile" : "target-P1035-Debug-25255b322c478afbd029.json",
 					"name" : "P1035",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 11,
 					"id" : "P1047::@9a0199e84b384777d5df",
 					"jsonFile" : "target-P1047-Debug-06afe3e3e706859a1f6e.json",
 					"name" : "P1047",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 11,
 					"id" : "P1085::@9a0199e84b384777d5df",
 					"jsonFile" : "target-P1085-Debug-00fa96916354afcfc612.json",
 					"name" : "P1085",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 11,
 					"id" : "P5082::@9a0199e84b384777d5df",
 					"jsonFile" : "target-P5082-Debug-1c7173a11cbcb0a90573.json",
 					"name" : "P5082",
@@ -475,6 +562,20 @@
 					"id" : "SmartPointer::@fc4543613c69d503e3a8",
 					"jsonFile" : "target-SmartPointer-Debug-12f10f78be92fcfa1314.json",
 					"name" : "SmartPointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "String::@e298dc57068adf7d5a23",
+					"jsonFile" : "target-String-Debug-80c711eddd7784e0dd06.json",
+					"name" : "String",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Vector::@e298dc57068adf7d5a23",
+					"jsonFile" : "target-Vector-Debug-10251a841c44973f8294.json",
+					"name" : "Vector",
 					"projectIndex" : 0
 				},
 				{

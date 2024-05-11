@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Lesson05/03-abstract.exe"
+			"path" : "Lesson05/homework/String.exe"
 		},
 		{
-			"path" : "Lesson05/03-abstract.pdb"
+			"path" : "Lesson05/homework/String.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"Lesson05/CMakeLists.txt"
+			"Lesson05/homework/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 1,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "03-abstract::@93998184b4aba35339ab",
+	"id" : "String::@e298dc57068adf7d5a23",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,12 +76,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "03-abstract",
-	"nameOnDisk" : "03-abstract.exe",
+	"name" : "String",
+	"nameOnDisk" : "String.exe",
 	"paths" : 
 	{
-		"build" : "Lesson05",
-		"source" : "Lesson05"
+		"build" : "Lesson05/homework",
+		"source" : "Lesson05/homework"
 	},
 	"sourceGroups" : 
 	[
@@ -91,6 +91,13 @@
 			[
 				0
 			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
 	"sources" : 
@@ -98,8 +105,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Lesson05/03-abstract.cpp",
+			"path" : "Lesson05/homework/String.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Lesson05/homework/String.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

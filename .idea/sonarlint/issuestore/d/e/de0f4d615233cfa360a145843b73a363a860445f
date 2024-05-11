@@ -1,0 +1,14 @@
+
+˜	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(È†ÓÄşÿÿÿÿ8Ù­ô˜ö1J$cbb1ea32-95f7-4d20-a88d-bb915037f5a8
+˜	cpp:S5025""QReplace the use of "new" with an operation that automatically manages the memory.(È†ÓÄşÿÿÿÿ8ô¢ëªö1J$9840d961-3555-4270-8271-0c1ef9b62cb8
+	cpp:S5025*":Rewrite the code so that you no longer need this "delete".(«µ¯ûùÿÿÿÿ8õ¢ëªö1J$25db4944-779c-42e4-a4f9-8a0db6dce5ad
+	cpp:S5025;":Rewrite the code so that you no longer need this "delete".(«µ¯ûùÿÿÿÿ8õ¢ëªö1J$3ccaf031-db7c-4185-b636-1ceb1babf036
+	cpp:S50252":Rewrite the code so that you no longer need this "delete".(«µ¯ûùÿÿÿÿ8÷¢ëªö1J$ddcc28d2-92a0-486c-878a-c779a9f7f06c
+˜	cpp:S5025A"QReplace the use of "new" with an operation that automatically manages the memory.(È†ÓÄşÿÿÿÿ8õ¢ëªö1J$ef9e141a-029c-4e4e-8954-682f93a3ed39
+}cpp:S935M">non-void function does not return a value in all control paths(æÀö€øÿÿÿÿJ$b8a91c50-29b9-4f7c-85ce-8244cb83343d
+˜	cpp:S5025Z"QReplace the use of "new" with an operation that automatically manages the memory.(À¶»Èıÿÿÿÿ8÷¢ëªö1J$bed20c7a-0969-4746-9b9c-b670dfd8175c
+n	cpp:S5827^"'Replace the redundant type with "auto".(—…¿‘ùÿÿÿÿ8÷¢ëªö1J$cf24bc28-24a3-4349-ab44-2118d9c25193
+[	cpp:S5025b":Rewrite the code so that you no longer need this "delete".(«µ¯ûùÿÿÿÿ8„ïªö1
+˜	cpp:S5025^"QReplace the use of "new" with an operation that automatically manages the memory.(—…¿‘ùÿÿÿÿ8ø¢ëªö1J$935701cd-8a95-481f-8e23-b8eed8a99a30
+_cpp:S125r"Remove the commented out code.(â›°‚8£ëªö1J$01c688a4-42c0-4df5-b131-434741da2ff4
+_cpp:S125w"Remove the commented out code.(Ëš“Ê8£ëªö1J$ead4a445-9442-4ecb-b67f-0890b5261b38

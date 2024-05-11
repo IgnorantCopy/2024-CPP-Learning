@@ -1,3 +1,4 @@
+D:/codes/2024-CPP-Learning/cmake-build-debug/CMakeFiles/02-composition.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson01/CMakeFiles/01-Hello.dir
@@ -30,6 +31,16 @@ D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/CMakeFiles/02-polymorphic.
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/CMakeFiles/03-abstract.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/homework/CMakeFiles/String.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/homework/CMakeFiles/Vector.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/homework/CMakeFiles/List.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/homework/CMakeFiles/ListNode.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/homework/CMakeFiles/Map.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/homework/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson05/homework/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson06/CMakeFiles/01-aggregation.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson06/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson06/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/Intro/CMakeFiles/P5082.dir
