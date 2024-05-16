@@ -1,0 +1,12 @@
+
+x	cpp:S1235
+"6'Car' has virtual functions but non-virtual destructor(åÛ´Â8ºÚ™×÷1J$5d55ad2b-f64b-419b-8751-f536ef2d3ad0
+~	cpp:S1235"7'Boat' has virtual functions but non-virtual destructor(ü÷Áşÿÿÿÿ8İ›¯×÷1J$a8d38b0f-37a9-4200-a7d9-b04da760d25f
+	cpp:S1235"?'AmphibianCar' has virtual functions but non-virtual destructor(ÜÏ¿Í8İ›¯×÷1J$c65893fe-6cfb-4aa5-a89e-a7d54cdfbaa6
+f	cpp:S1011
+"$Refactor this "virtual" inheritance.(åÛ´Â8ÄÚ™×÷1J$9523c68c-cfc4-4a4f-9fdc-edbbe6f6563d
+p	cpp:S1709"/Add the "explicit" keyword to this constructor.(Ğ÷Ï8’ƒ±×÷1J$2f88b6aa-b6ff-41e5-b996-c36254fda1cf
+|	cpp:S1238";Pass expensive to copy object "name" by reference to const.(Ğ÷Ï8½ °×÷1J$499ae5de-cc7d-4edb-bf05-be86530bc0c6
+k	cpp:S1011"$Refactor this "virtual" inheritance.(ü÷Áşÿÿÿÿ8ä›¯×÷1J$6576989a-7f13-49f2-9c24-1501e66b9911
+q	cpp:S1709"/Add the "explicit" keyword to this constructor.(¢ùù8½ °×÷1J$6e557a66-e91e-4693-b7c0-d9f6c86cc8fc
+}	cpp:S1238";Pass expensive to copy object "name" by reference to const.(¢ùù8•ƒ±×÷1J$14514fc6-630c-4cad-9cd5-8133a42b7524

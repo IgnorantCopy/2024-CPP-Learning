@@ -1,0 +1,14 @@
+
+x	cpp:S1235
+"6'Car' has virtual functions but non-virtual destructor(üê”Á8øó×÷1J$56e789f7-ee56-47cc-bc42-da92cd326815
+~	cpp:S1235"7'Boat' has virtual functions but non-virtual destructor(ÿ±‚Òúÿÿÿÿ8ŞÃÓ×÷1J$8b8c1210-368b-43cc-b30e-5ab64e979e93
+	cpp:S1235"?'AmphibianCar' has virtual functions but non-virtual destructor(ÜÏ¿Í8´Û§Ø÷1J$611399b0-0ff4-4e0a-be55-1f0285077fac
+}	cpp:S1238";Pass expensive to copy object "name" by reference to const.(Ì€í8™øó×÷1J$99382afa-4503-480d-8e3e-7eb46fcdc9d3
+}	cpp:S1238";Pass expensive to copy object "name" by reference to const.(è‰ƒˆ8¯‘Ø÷1J$09d350a6-1197-4e20-9bb6-f2bc3c3a0ac8
+ˆ	cpp:S2387"FField "name" shadows a field of the same name in base class "Vehicle".(ùŠï8•‚¡Ù÷1J$deb5a3e3-86e8-4742-85a0-e68416d72b3e
+§	cpp:S3230!"`Do not assign data members in a constructor. Initialize member "name" in an initialization list.(ßÚŒüúÿÿÿÿ8Å¢ªØ÷1J$99958419-fafb-4782-845c-293541518165
+}	cpp:S1238 ";Pass expensive to copy object "name" by reference to const.(áÁÁø8ÜÈÙ÷1J$48065f17-ae9a-437d-a398-dd54be81e62e
+R	cpp:S1235
+"6'Car' has virtual functions but non-virtual destructor(üê”Á8œÙ—Ú÷1
+X	cpp:S1235"7'Boat' has virtual functions but non-virtual destructor(ÿ±‚Òúÿÿÿÿ8Ù—Ú÷1
+[	cpp:S1235"?'AmphibianCar' has virtual functions but non-virtual destructor(ÜÏ¿Í8Ù—Ú÷1

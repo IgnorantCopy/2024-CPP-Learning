@@ -12,6 +12,7 @@
 470	640	7338542803901217	_Exercise/03/3-2.exe	a8f652904efde7de
 5	397	7321208356962159	Lesson02/CMakeFiles/01-stack.dir/01-stack.cpp.obj	c13facba4e2c54aa
 5	529	7333232856493370	Lesson03/CMakeFiles/03-friend.dir/03-friend.cpp.obj	fe132e1474107e41
+560	753	7371091046645199	Lesson05/homework/Map.exe	387ac41fcf5a8e56
 5	620	7326214872130873	_Exercise/02/CMakeFiles/2-3.dir/2-3.cpp.obj	7cb08b349a660ab9
 398	556	7321208358482132	Lesson02/01-stack.exe	2257b370b6c7f031
 4	444	7334138163438481	Lesson03/homework/CMakeFiles/meQueue.dir/meQueue.cpp.obj	da1d26291843ff76
@@ -27,8 +28,11 @@
 3	488	7344413396538077	Lesson03/CMakeFiles/01-class.dir/01-class.cpp.obj	a95d518eaa6eb25a
 11	1572	7369492966750970	Lesson06/CMakeFiles/01-aggregation.dir/01-aggregation.cpp.obj	8901dc279b8d224f
 365	503	7338409514356825	_Exercise/03/3-1.exe	609ba18f37e40767
+13	608	7375541645271549	Lesson07/CMakeFiles/02-fstream.dir/02-fstream.cpp.obj	6114d87b20006789
 1305	2252	7333209222033980	Lesson03/01-class.exe	37724f6df8f400d5
+12	1634	7372336142360756	SpecialShapedPlant/test/CMakeFiles/easyxTest.dir/easyxTest.cpp.obj	4c2f2660dfc77b35
 0	396	7334125608791635	Lesson03/homework/CMakeFiles/myStack.dir/myStack.cpp.obj	bea7c2f48b0fcd4f
+12	1642	7371409750141961	SpecialShapedPlant/CMakeFiles/SpecialShapedPlant.dir/main.cpp.obj	4678d9422eedad7c
 8	628	7360002049713632	Lesson05/CMakeFiles/03-abstract.dir/03-abstract.cpp.obj	3a6e682be7463502
 397	554	7334125610377123	Lesson03/homework/myStack.exe	6ea539cb72746a4d
 10	414	7370554742818902	Lesson05/homework/CMakeFiles/String.dir/String.cpp.obj	c7b45670a118b899
@@ -50,6 +54,7 @@
 416	545	7354991496856394	Lesson04/homework/SmartPointer.exe	88a1891c24846a16
 22	582	7345283091837274	Lesson04/CMakeFiles/01-operatorOverride.dir/01-operatorOverride.cpp.obj	431597ad20a9f067
 583	802	7345283093999128	Lesson04/01-operatorOverride.exe	74e96d6934c6ba92
+609	843	7375541647607521	Lesson07/02-fstream.exe	7ee8ff2deeaac33
 11	582	7351348654726227	Lesson04/CMakeFiles/01-operatorOverload.dir/01-operatorOverload.cpp.obj	a4526c2e21f1b0b6
 1574	2564	7369492976661636	Lesson06/01-aggregation.exe	6863d6a53db9c89a
 583	794	7351348656839424	Lesson04/01-operatorOverload.exe	6cf8b90516c07df2
@@ -57,8 +62,8 @@
 508	670	7350381303452971	_Exercise/04/4-1.exe	6cbe1f316e106ec6
 661	899	7352970358146119	Lesson04/homework/SmartPoniter.exe	5e51cfe6d54e638e
 9	471	7350406959663480	Lesson04/CMakeFiles/4-2.dir/__/_Exercise/04/4-2.cpp.obj	323d392a9356f0e3
-471	638	7350406961285165	Lesson04/4-2.exe	49d418aa9fa14cde
 10	621	7359976825073821	Lesson05/CMakeFiles/02-polymorphic.dir/02-polymorphic.cpp.obj	bfb881314a32dfc1
+471	638	7350406961285165	Lesson04/4-2.exe	49d418aa9fa14cde
 7	550	7351352500554101	Lesson04/CMakeFiles/02-lambda.dir/02-lambda.cpp.obj	7b28155b4d771e1
 613	832	7352983541052885	Lesson04/homework/Matrix.exe	4b788e62c18e3b08
 533	789	7353038211488310	Lesson04/homework/Plant.exe	358d1cd440d8cb48
@@ -69,7 +74,13 @@
 10	414	7370955156623631	Lesson05/homework/CMakeFiles/Vector.dir/Vector.cpp.obj	d932a93eb28299e6
 416	573	7370554744378502	Lesson05/homework/String.exe	b23505b3c5fdb393
 415	601	7370955158488718	Lesson05/homework/Vector.exe	c1728428925faf48
-6	648	7371063644931152	Lesson05/homework/CMakeFiles/Map.dir/Map.cpp.obj	58427208448154a5
-649	874	7371063647152015	Lesson05/homework/Map.exe	387ac41fcf5a8e56
 10	559	7371091044732670	Lesson05/homework/CMakeFiles/Map.dir/Map.cpp.obj	58427208448154a5
-560	753	7371091046645199	Lesson05/homework/Map.exe	387ac41fcf5a8e56
+1644	1846	7371409752166753	SpecialShapedPlant/SpecialShapedPlant.exe	585cb55d8d85759b
+1635	1839	7372336144421063	SpecialShapedPlant/test/easyxTest.exe	45e8f3b4ed8c7e68
+14	666	7374575775428173	_Exercise/05/CMakeFiles/5-1.dir/5-1.cpp.obj	52c18d4b95e9a21d
+667	925	7374575777968976	_Exercise/05/5-1.exe	f4f2f70943c389ed
+17	635	7375541584607845	_Exercise/05/CMakeFiles/5-2.dir/5-2.cpp.obj	7ba9209ad2596492
+637	895	7375541587185990	_Exercise/05/5-2.exe	74b2ea088110894
+16	750	7375532427054030	Lesson07/CMakeFiles/01-ioStream.dir/01-ioStream.cpp.obj	24ccecb7f0ca591c
+28	714	7375545072267821	Lesson07/CMakeFiles/02-fstream.dir/02-fstream.cpp.obj	6114d87b20006789
+715	961	7375545074715721	Lesson07/02-fstream.exe	7ee8ff2deeaac33

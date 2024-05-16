@@ -52,3 +52,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/04/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/05/cmake_install.cmake")
+endif()
+

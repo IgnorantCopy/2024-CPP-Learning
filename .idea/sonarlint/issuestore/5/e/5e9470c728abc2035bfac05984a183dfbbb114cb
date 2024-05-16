@@ -1,0 +1,13 @@
+
+‘	cpp:S1235"Jdelete called on 'Vehicle' that is abstract but has non-virtual destructor(ò»ƒãüÿÿÿÿ8™¡‡Ø÷1J$7e3793dc-7274-4edc-a673-9e50aa001385
+Œ	cpp:S1235"Jdelete called on 'Vehicle' that is abstract but has non-virtual destructor(—ºÛ½8ëƒŠØ÷1J$5d1a89ca-b5c5-460a-9c0d-e0d474f7732e
+¦	cpp:S1235"_delete called on non-final 'AmphibianCar' that has virtual functions but non-virtual destructor(ÿ®äæøÿÿÿÿ8ëƒŠØ÷1J$a979ef5c-8282-47c4-9c7a-d78f77959046
+i	cpp:S5827
+"'Replace the redundant type with "auto".(ÆÙ±È8¯©†Ø÷1J$74793552-ffd3-4604-ac14-1ecd48ee6544
+	cpp:S5025":Rewrite the code so that you no longer need this "delete".(ò»ƒãüÿÿÿÿ8•½‰Ø÷1J$28444754-4294-4a04-b881-466e3bc97399
+|	cpp:S5025":Rewrite the code so that you no longer need this "delete".(—ºÛ½8úƒŠØ÷1J$1e337eb4-0f48-48fc-bebd-7c18f1273585
+	cpp:S5025":Rewrite the code so that you no longer need this "delete".(ÿ®äæøÿÿÿÿ8úƒŠØ÷1J$4ffd077f-f2f6-46bc-88e0-451a0e7ed5f6
+“	cpp:S5025
+"QReplace the use of "new" with an operation that automatically manages the memory.(ÆÙ±È8°©†Ø÷1J$1ce97b40-ef82-476d-bec6-785ec65904bb
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(üÇ‡Ş8¥¡‡Ø÷1J$9f533b14-371e-4536-90b8-9b5619c24ce6
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(šÜ˜8ƒü‡Ø÷1J$ee78bb9d-445d-46f9-add4-9877358b8019

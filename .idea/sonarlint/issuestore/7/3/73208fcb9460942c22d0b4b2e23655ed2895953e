@@ -1,0 +1,8 @@
+
+Y	cpp:S5028
+"8Replace this macro by "const", "constexpr" or an "enum".(•¿»Èüÿÿÿÿ8¸Ğ—Ú÷1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ö”›ùøÿÿÿÿ8¸Ğ—Ú÷1
+“cpp:S134V"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ùİùÿÿÿÿÿ8õâÎìö1J$2f10ee0b-9b4d-4212-99ca-e0e2ec6065e4
+“cpp:S134^"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ùİùÿÿÿÿÿ8ÛµÒìö1J$cf813a36-f215-4381-9f73-cffd2a49ea50
+mcpp:S134k"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(×î÷Œÿÿÿÿÿ8µÉÒìö1
+g	cpp:S1301i"KReplace this "switch" statement by "if" statements to increase readability.(ª›óó8ºÉÒìö1

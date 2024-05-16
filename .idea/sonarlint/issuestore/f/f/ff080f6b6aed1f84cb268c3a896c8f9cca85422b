@@ -1,0 +1,7 @@
+
+	cpp:S1235":'Vehicle' has virtual functions but non-virtual destructor(•İ”Áüÿÿÿÿ8ç¯êÖ÷1J$eee32659-0237-49a0-a2b8-3654d065053f
+c	cpp:S1003
+"Remove this using-directive.(ÉÔ³òÿÿÿÿÿ8ğ¯êÖ÷1J$0388ec45-bbc4-4b83-b750-3b6a873ac353
+r	cpp:S3656"+Member variables should not be "protected".(•İ”Áüÿÿÿÿ8ò¯êÖ÷1J$ff97cb1e-9e23-47ad-8ce0-a1a5dda5e435
+q	cpp:S1709"/Add the "explicit" keyword to this constructor.(õÅÿè8÷¯êÖ÷1J$2c3f594a-8ec3-4b16-a178-d400bed77848
+}	cpp:S1238";Pass expensive to copy object "name" by reference to const.(õÅÿè8÷¯êÖ÷1J$4567dcfb-1d6e-46ea-bc6a-efbed31fc733
