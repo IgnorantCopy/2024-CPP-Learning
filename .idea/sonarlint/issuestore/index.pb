@@ -125,10 +125,6 @@ I
 Lesson05/homework/Map.cpp,9\3\9375c9136850ce74a08879d2120611963d17bb9a
 Q
 !SpecialShapedPlant/CMakeLists.txt,4\c\4ca522a8cdbac296be32844fe1fd97e20ff84083
-I
-SpecialShapedPlant/main.h,5\1\5138bef0c6b7e77a59d220d42cd7081e8d55905d
-K
-SpecialShapedPlant/main.cpp,0\3\032135a6815d22603950099120843aec9f04e1b5
 V
 &SpecialShapedPlant/test/CMakeLists.txt,5\2\52bcb16dcedccb673b0edfe33c4e506461a975ec
 U
@@ -153,3 +149,27 @@ H
 Lesson07/01-iostream.cpp,1\e\1e766948bd11c00530ef3faca368f0f0bd0ee00f
 G
 Lesson07/02-fstream.cpp,f\d\fd390ec037fe3ede6eadc567a981edf734aa9bbb
+G
+Lesson08/CMakeLists.txt,a\e\aedb6474579cb051daa5624fcf71a33e56b117fc
+I
+Lesson08/01-exception.cpp,f\b\fbb190abb74aa2291df0edc264e66c0d35d087e6
+U
+%SpecialShapedPlant/src/CMakeLists.txt,9\9\99ca2e0426e18bc5184272ff06cab41bcb110632
+O
+SpecialShapedPlant/src/main.cpp,f\e\fef54537f9e9bb291a2bec5711bc8124e21aa283
+O
+SpecialShapedPlant/src/common.h,2\c\2c6ddcee0d95608b0141b2aee301e6419cb82cd3
+Q
+!SpecialShapedPlant/src/common.cpp,0\d\0d4514375086425662d364bb64b60887127a7ca7
+S
+#SpecialShapedPlant/src/pages/menu.h,e\0\e0ff58a723c6973459df036099157d17133cfc0c
+U
+%SpecialShapedPlant/src/pages/menu.cpp,2\4\2403a88dbea60e2c69ccf305b425a7b4dbbc87b0
+U
+%SpecialShapedPlant/include/graphics.h,f\b\fb751e5db7a2be684eacdbd4edc362af6d9d5be8
+R
+"SpecialShapedPlant/include/easyx.h,0\3\03815357420284d3229a43829805deb862a88ae9
+W
+'SpecialShapedPlant/include/pages/menu.h,e\d\ed9a5dd85484ea7e501d494f9d05b2bd3991185d
+S
+#SpecialShapedPlant/include/common.h,d\c\dc717ea914870c53878fd33daf770d37dc70c283

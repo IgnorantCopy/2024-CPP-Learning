@@ -45,6 +45,9 @@ D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson07/CMakeFiles/01-iostream.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson07/CMakeFiles/02-fstream.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson07/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson07/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson08/CMakeFiles/01-exception.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson08/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson08/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/Intro/CMakeFiles/P5082.dir
@@ -72,9 +75,11 @@ D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/05/CMakeFiles/5-1.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/05/CMakeFiles/5-2.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/05/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/05/CMakeFiles/rebuild_cache.dir
-D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/CMakeFiles/SpecialShapedPlant.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/src/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/src/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/test/CMakeFiles/easyxTest.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/test/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/test/CMakeFiles/rebuild_cache.dir

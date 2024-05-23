@@ -1,0 +1,19 @@
+
+y	cpp:S5028½"8Replace this macro by "const", "constexpr" or an "enum".( äÂƒøÿÿÿÿJ$2fd6b258-01f6-4615-8310-8263f350ff6e
+t	cpp:S5028¾"8Replace this macro by "const", "constexpr" or an "enum".(‹ãĞÚJ$c6349c27-cfa6-45b9-b017-44ab6ebb8d3b
+y	cpp:S5028¿"8Replace this macro by "const", "constexpr" or an "enum".(ˆÚñ¾øÿÿÿÿJ$02ed4f8c-4bfd-433b-bcee-7b43f4c1f272
+y	cpp:S5028À"8Replace this macro by "const", "constexpr" or an "enum".(º›¥ÊÿÿÿÿÿJ$2dafd4a1-bde2-400b-b75b-4b447dbddb9c
+§	cpp:S4963E"lRemove this class' copy constructor and copy assignment operator so that the class follows the rule of Zero.(¦¼¢©J$9ce0cd63-6da4-47cc-81e4-3369f9736514
+¬	cpp:S4963T"lRemove this class' copy constructor and copy assignment operator so that the class follows the rule of Zero.(›ãã¡úÿÿÿÿJ$0a2aec4f-175c-44fa-85dc-cab5d75a1958
+§	cpp:S4963b"lRemove this class' copy constructor and copy assignment operator so that the class follows the rule of Zero.(®¨ªîJ$31ef7710-9dd3-463f-a76d-3bdd8f999b3b
+p	cpp:S1659i"0Define each identifier in a dedicated statement.(òÙÔöÿÿÿÿÿJ$a5166f47-46dc-4840-a8d7-42fb655455ca
+}	cpp:S5945l"=Use "std::array" or "std::vector" instead of a C-style array.(û¥İôÿÿÿÿÿJ$57b947b9-58fb-4d21-81fe-c8842f84d47a
+V	cpp:S4962"Use the "nullptr" literal.(öÌ´J$ad8c5996-58e9-4b49-933b-ab96114663c1
+[	cpp:S4962“"Use the "nullptr" literal.(ÎôøıÿÿÿÿJ$a0d7f79e-f21a-4af6-885c-31e55fc3fc36
+[	cpp:S4962„"Use the "nullptr" literal.(ª¿îçùÿÿÿÿJ$9a1164f1-5ded-4c05-9c9d-8984b6ca463f
+V	cpp:S4962Š"Use the "nullptr" literal.(­ÁòÁJ$ecb35dc3-c924-4827-ad15-76744b3e3600
+[	cpp:S4962Œ"Use the "nullptr" literal.(œšÕ›şÿÿÿÿJ$c9887a98-34a3-416a-804e-f8c49e021dd9
+[	cpp:S4962"Use the "nullptr" literal.(å¯¸¡øÿÿÿÿJ$34bf4087-b634-46ff-bae2-aa3b00d6492a
+V	cpp:S4962Ÿ"Use the "nullptr" literal.(ø½†²J$6b25b4a6-4d09-421c-9bb4-25671628033a
+V	cpp:S4962Ÿ"Use the "nullptr" literal.(ø½†²J$1c0869b4-f189-4e88-9140-ae61a819dfdf
+V	cpp:S4962Ÿ"Use the "nullptr" literal.(ø½†²J$78989867-2031-49e5-9aec-0b12328c7697

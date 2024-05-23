@@ -74,6 +74,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson08/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/cmake_install.cmake")
 endif()
 

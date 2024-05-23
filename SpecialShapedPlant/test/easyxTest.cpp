@@ -3,18 +3,58 @@
 //
 
 #include <iostream>
-#include <conio.h>
-#include "../../../Import/easyx4mingw_20240225/include/graphics.h"
-#include "../../../Import/easyx4mingw_20240225/include/easyx.h"
+#include "graphics.h"
+#include "easyx.h"
 
+#define FPS 60
 #define HEIGHT 800
 #define WIDTH 1000
 
 using namespace std;
 
-void putTransparentImage(int x, int y, const IMAGE *mask, const IMAGE *image) {
-    putimage(x, y, mask, SRCAND);
-    putimage(x, y, image, SRCPAINT);
+void putTransparentImage(int x, int y, IMAGE *dstImg, IMAGE *srcImg) {
+    // initialize
+    DWORD *dst = GetImageBuffer(dstImg);
+    DWORD *src = GetImageBuffer(srcImg);
+    int srcWidth = srcImg->getwidth();
+    int srcHeight = srcImg->getheight();
+    int dstWidth = dstImg == nullptr ? getwidth() : dstImg->getwidth();
+    int dstHeight = dstImg == nullptr ? getheight() : dstImg->getheight();
+    
+    // calculate the real width and height
+    int realWidth = (x + srcWidth > dstWidth) ? dstWidth - x : srcWidth;
+    int realHeight = (y + srcHeight > dstHeight)? dstHeight - y : srcHeight;
+    if (x < 0) {
+        src += -x;
+        realWidth += x;
+        x = 0;
+    }
+    if (y < 0) {
+        src += -y * srcWidth;
+        realHeight += y;
+        y = 0;
+    }
+    dst += y * dstWidth + x;
+    
+    // draw the transparent image
+    for (int i = 0; i < realHeight; i++) {
+        for (int j = 0; j < realWidth; j++) {
+            unsigned long sa = (src[j] & 0xff000000) >> 24;
+            unsigned long sr = (src[j] & 0x00ff0000) >> 16;
+            unsigned long sg = (src[j] & 0x0000ff00) >> 8;
+            unsigned long sb = src[j] & 0x000000ff;
+            
+            unsigned long dr = (dst[j] & 0x00ff0000) >> 16;
+            unsigned long dg = (dst[j] & 0x0000ff00) >> 8;
+            unsigned long db = dst[j] & 0x000000ff;
+            
+            dst[j] = ((sr + dr * (255 - sa) / 255) << 16)
+                    | ((sg + dg * (255 - sa) / 255) << 8)
+                    | (sb + db * (255 - sa) / 255);
+        }
+        dst += dstWidth;
+        src += srcWidth;
+    }
 }
 
 int main() {
@@ -66,28 +106,39 @@ int main() {
      *  2. putimage(x, y, playImg, playImg, dwRop = SRCCOPY)  绘制图片
      */
     IMAGE playImg;
-    loadimage(&playImg, "../image/play.png");
-    IMAGE playMask;
-    loadimage(&playMask, "../image/playMask.png");
-    putTransparentImage(WIDTH / 2 - playImg.getwidth() / 2, HEIGHT / 2 - playImg.getheight() / 2, &playMask, &playImg);
+    string filename = "../image/play";
+    loadimage(&playImg, (filename + ".png").c_str());
+    putTransparentImage(WIDTH / 2 - playImg.getwidth() / 2, HEIGHT / 2 - playImg.getheight() / 2, nullptr, &playImg);
     IMAGE playTextImg;
     loadimage(&playTextImg, "../image/playText.png");
-    IMAGE playTextMask;
-    loadimage(&playTextMask, "../image/playTextMask.png");
     /*
-     * 事件：
+     * 事件：ExMessage
+     *  message.message     事件类型
+     *  message.x           鼠标位置x坐标
+     *  message.y           鼠标位置y坐标
+     *  message.vkcode      按键代码
+     *  message.ctrl        是否按下了Ctrl键
+     *  message.shift       是否按下了Shift键
+     *  message.lbutton     鼠标左键是否按下
+     *  message.rbutton     鼠标右键是否按下
+     *  message.mbutton     鼠标中键是否按下
+     *  message.wheel       鼠标滚轮滚动值，为120的整数倍
+     *  message.extended    是否为扩展按键(功能键、数字键盘等)
+     *  message.prevdown    按键的上一个状态是否为按下
      */
     ExMessage message;
     bool flag = true;
     while (flag) {
-        if (peekmessage(&message, EM_MOUSE)) {
+        while (peekmessage(&message, -1)) {
             switch (message.message) {
                 case WM_LBUTTONDOWN:
                     if (message.x >= WIDTH / 2 - playImg.getwidth() / 2
                         && message.x <= WIDTH / 2 + playImg.getwidth() / 2
                         && message.y >= HEIGHT / 2 - playImg.getheight() / 2
                         && message.y <= HEIGHT / 2 + playImg.getheight() / 2) {
-                        putTransparentImage(WIDTH / 2 - playImg.getwidth() / 2, HEIGHT / 2 - playImg.getheight() / 2, &playTextMask, &playTextImg);
+                        cout << "Button clicked on " << message.x << ", " << message.y << endl;
+                        putTransparentImage(WIDTH / 2 - playImg.getwidth() / 2, HEIGHT / 2 - playImg.getheight() / 2,
+                                            nullptr, &playTextImg);
                     }
                     break;
                 case WM_LBUTTONUP:
@@ -95,23 +146,23 @@ int main() {
                         && message.x <= WIDTH / 2 + playImg.getwidth() / 2
                         && message.y >= HEIGHT / 2 - playImg.getheight() / 2
                         && message.y <= HEIGHT / 2 + playImg.getheight() / 2) {
-                        putTransparentImage(WIDTH / 2 - playImg.getwidth() / 2, HEIGHT / 2 - playImg.getheight() / 2, &playMask, &playImg);
+                        cout << "Button released on " << message.x << ", " << message.y << endl;
+                        putTransparentImage(WIDTH / 2 - playImg.getwidth() / 2, HEIGHT / 2 - playImg.getheight() / 2,
+                                            nullptr, &playImg);
                     }
                     break;
-                default:
-                    break;
-            }
-        } else if (peekmessage(&message, EM_KEY)) {
-            switch (message.message) {
                 case WM_KEYDOWN:
                     if (message.vkcode == VK_ESCAPE) {
                         flag = false;
+                    } else if (message.vkcode == VK_SPACE) {
+                        cout << "Space pressed" << endl;
                     }
                     break;
                 default:
                     break;
             }
         }
+        Sleep(1000 / FPS);
     }
     // 关闭窗口
     closegraph();
