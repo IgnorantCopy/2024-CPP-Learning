@@ -4,16 +4,20 @@
 
 #include "pages/menu.h"
 
-void drawMenu() {
+Status drawMenu() {
     Jpeg background(WINDOW_WIDTH, WINDOW_HEIGHT, "image/mainBackground");
     
-    Png startButton(350, 175, "image/play");
-    startButton.setX((WINDOW_WIDTH - startButton.getWidth()) / 2);
-    startButton.setY((WINDOW_HEIGHT - startButton.getHeight()) / 2);
-    
+    Png startButtonImage(350, 175, "image/play");
+    startButtonImage.setX((WINDOW_WIDTH - startButtonImage.getWidth()) / 2);
+    startButtonImage.setY((WINDOW_HEIGHT - startButtonImage.getHeight()) / 2);
     Png startText(350, 175, "image/playText");
     startText.setX((WINDOW_WIDTH - startText.getWidth()) / 2);
     startText.setY((WINDOW_HEIGHT - startText.getHeight()) / 2);
+    Button startButton(&startButtonImage, &startText);
+    
+    static Gif load(650, 200, "image/loading/loading", 50);
+    load.setX((WINDOW_WIDTH - load.getWidth()) / 2 - 50);
+    load.setY((WINDOW_HEIGHT - startText.getHeight()) / 2);
     
     Text title("Ravie", "Special Shaped Plant", 100);
     title.setX((WINDOW_WIDTH - title.getWidth()) / 2);
@@ -21,10 +25,13 @@ void drawMenu() {
     
     background.draw();
     title.draw();
-    startButton.draw();
-    if (startButton.isOnclick()) {
-        startText.draw();
+    if (load.drawOnce()) {
+        startButton.draw();
+        if (startButtonImage.isOnclick()) {
+            return Status::NEXT_PAGE;
+        }
     }
+    return Status::CONTINUE;
 }
 
 Status doMenuLogic() {
@@ -32,7 +39,7 @@ Status doMenuLogic() {
         return Status::EXIT;
     }
     BeginBatchDraw();
-    drawMenu();
+    Status status = drawMenu();
     FlushBatchDraw();
-    return Status::CONTINUE;
+    return status;
 }

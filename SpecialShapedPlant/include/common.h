@@ -16,11 +16,12 @@
 
 using namespace std;
 
-enum class Page {
+enum Page {
     MENU,
+    GAME,
 };
 
-enum class Status {
+enum Status {
     LAST_PAGE = -1,
     CONTINUE,
     NEXT_PAGE,
@@ -83,7 +84,9 @@ protected:
     int width;
     int height;
     string filename;    // 不加后缀名
+    Image() = default;
     Image(int width, int height, string const& filename): width(width), height(height), filename(filename) {}
+    virtual ~Image() = default;
 public:
     int getX() const { return x; }
     
@@ -93,6 +96,8 @@ public:
     
     int getHeight() const { return height; }
     
+    string getFilename() const { return filename; }
+    
     void setX(int x) { this->x = x; }
     
     void setY(int y) { this->y = y; }
@@ -100,6 +105,8 @@ public:
     void setWidth(int width) { this->width = width; }
     
     void setHeight(int height) { this->height = height; }
+    
+    void setFilename(const string& filename) { this->filename = filename; }
     
     bool isOnclick() const;
     
@@ -110,6 +117,7 @@ public:
 
 class Jpeg: public Image {
 public:
+    Jpeg() = default;
     Jpeg(int width, int height, const string& filename): Image(width, height, filename) {}
     
     void draw() override;
@@ -117,6 +125,7 @@ public:
 
 class Png: public Image {
 public:
+    Png() = default;
     Png(int width, int height, string const& filename): Image(width, height, filename) {}
     
     void draw() override;
@@ -126,10 +135,27 @@ class Gif: public Image {
     int currentFrame = 0;
     int totalFrames;
 public:
+    Gif() = default;
     Gif(int width, int height, const string& filename, int totalFrames):
         Image(width, height, filename), totalFrames(totalFrames) {}
     
     void draw() override;
+    
+    int drawOnce();
+};
+
+class Button {
+    Png *image1;
+    Png *image2;
+    int status = 0;
+public:
+    Button(Png *image1, Png *image2): image1(image1), image2(image2) {}
+    
+    void draw();
+    
+    int getStatus() const { return status; }
+    
+    void setStatus(int status) { this->status = status; }
 };
 
 class Text {

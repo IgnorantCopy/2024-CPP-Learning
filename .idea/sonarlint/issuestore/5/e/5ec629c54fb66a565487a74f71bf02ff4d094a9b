@@ -1,0 +1,7 @@
+
+¨	cpp:S1235!"adelete called on non-final 'BaseCalculator' that has virtual functions but non-virtual destructor(ÿã÷Šùÿÿÿÿ8Ûòá—ü1J$7685e418-bd30-450a-b242-46ac0d366cd7
+¨	cpp:S1235""adelete called on non-final 'BaseCalculator' that has virtual functions but non-virtual destructor(úÿ×£úÿÿÿÿ8Üòá—ü1J$d5038f3e-aaa3-4495-be2c-e9fde6d041c4
+	cpp:S5025!":Rewrite the code so that you no longer need this "delete".(ÿã÷Šùÿÿÿÿ8ñòá—ü1J$ffd3b7e3-b01c-464f-b873-ca19d008821e
+	cpp:S5025"":Rewrite the code so that you no longer need this "delete".(úÿ×£úÿÿÿÿ8ñòá—ü1J$cb0e1bea-5dac-4ff2-a41a-de3be6ca01ac
+˜	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(Ï³Ãşÿÿÿÿ8ÛÍß—ü1J$930a3c83-f079-43bd-9703-0553dd38bc52
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(¥Ğİ¾8ÜÍß—ü1J$f50576b6-6ad0-4244-8eb5-7006568eb63f

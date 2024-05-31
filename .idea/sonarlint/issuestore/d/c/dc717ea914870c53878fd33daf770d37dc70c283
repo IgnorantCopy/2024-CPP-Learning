@@ -1,19 +1,91 @@
 
-	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(®²µñùÿÿÿÿ8ÆŸ¥ø1J$8a69369a-918f-4196-9331-56bda7954b6c
-	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(‚´úàÿÿÿÿÿ8ÛÇ¦«ú1J$3c8cd4f3-1b7f-4e8b-9ba2-c449dd956efa
-z	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ÌÂóÉ8ÛÇ¦«ú1J$b348a477-3cb1-4d3e-8614-2deb56c5164d
-	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(½¾ç­şÿÿÿÿ8ÛÇ¦«ú1J$6f1ed538-de3a-481b-9f9f-a5228968e053
-h	cpp:S11171"&declaration shadows a field of 'Mouse'(æŒìÄ8«É¦«ú1J$e133d5a2-c9e4-40f8-b398-ad975345d96c
-h	cpp:S11173"&declaration shadows a field of 'Mouse'(ñ‚²ü8«É¦«ú1J$c20dc107-ef99-4b5e-a759-f6d8a16fb12d
-z	cpp:S1235O"8'Image' has virtual functions but non-virtual destructor(”†ôÅ8«É¦«ú1J$535becfe-4c08-4f79-8bb4-4af02a1e8ab2
-h	cpp:S1117`"&declaration shadows a field of 'Image'(æŒìÄ8¬É¦«ú1J$0614e009-d1f9-41a6-b516-ad493d6714a3
-h	cpp:S1117b"&declaration shadows a field of 'Image'(ñ‚²ü8¬É¦«ú1J$bb32f695-a21e-4c12-9ade-b493c2946b5c
-m	cpp:S1117d"&declaration shadows a field of 'Image'(ÌÖ¹¹üÿÿÿÿ8¬É¦«ú1J$4e3cd740-8878-4bbd-8bd3-2f488394964e
-h	cpp:S1117f"&declaration shadows a field of 'Image'(ı¯ú8¬É¦«ú1J$afa2673b-1920-4da3-808a-8521bad68830
-~	cpp:S1235o"7'Jpeg' has virtual functions but non-virtual destructor(‘µÆùÿÿÿÿ8¬É¦«ú1J$03aa4406-dd5b-4a30-b54c-7426981985e7
-}	cpp:S1235v"6'Png' has virtual functions but non-virtual destructor(¸–ê·ÿÿÿÿÿ8¬É¦«ú1J$e9de5208-2046-4f9e-aea4-0fdae66acec4
-}	cpp:S1235}"6'Gif' has virtual functions but non-virtual destructor(’¼”•ûÿÿÿÿ8¬É¦«ú1J$8657e20b-d42b-41c8-b1b2-83dc52d02b6a
-h	cpp:S1117—"%declaration shadows a field of 'Text'(æŒìÄ8¬É¦«ú1J$3590f3f5-f650-44d1-b98c-ecbe75b2a31e
-h	cpp:S1117™"%declaration shadows a field of 'Text'(ñ‚²ü8¬É¦«ú1J$75dfdccf-0fec-468a-9c96-3d26f13d537d
-c	cpp:S1003"Remove this using-directive.(ÉÔ³òÿÿÿÿÿ8ÔÉ¦«ú1J$5cdc9a95-38f5-4c14-8e58-8bb3f8bb89a7
-m	cpp:S3656O"+Member variables should not be "protected".(”†ôÅ8ØÉ¦«ú1J$09502a14-eeed-45c8-bdee-8bad2615723e
+	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(®²µñùÿÿÿÿ8ÆŸ¥ø1J$6a8d3bc7-9707-43e3-aee7-8ff892683ad6
+	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(‚´úàÿÿÿÿÿ8ÛÇ¦«ú1J$e293d01c-b3fa-4081-a86f-c6d08ec9be53
+z	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ÌÂóÉ8ÛÇ¦«ú1J$a04b13f7-f59c-4fb6-8c60-029da0f9b295
+	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(½¾ç­şÿÿÿÿ8ÛÇ¦«ú1J$e35f57e4-bb28-4afc-ad2f-34f774abf3d2
+h	cpp:S11172"&declaration shadows a field of 'Mouse'(æŒìÄ8¼İúÓú1J$4c6243c6-4c52-4ded-a873-052a48bb35f3
+h	cpp:S11174"&declaration shadows a field of 'Mouse'(ñ‚²ü8§¼úÓú1J$60f8a412-f716-4bbe-91d0-87fe276916da
+h	cpp:S1117e"&declaration shadows a field of 'Image'(æŒìÄ8½İúÓú1J$9767017d-9649-4e95-9ae2-bf0db076410f
+h	cpp:S1117g"&declaration shadows a field of 'Image'(ñ‚²ü8¨¼úÓú1J$8d9a981a-9a6b-41bb-8017-18eb4970cea3
+m	cpp:S1117i"&declaration shadows a field of 'Image'(ÌÖ¹¹üÿÿÿÿ8¨¼úÓú1J$bf772fed-a332-42b3-a8f3-cae7522d8f16
+h	cpp:S1117k"&declaration shadows a field of 'Image'(ı¯ú8©¼úÓú1J$5eed9277-51e8-4d60-a6af-5c2c7fdcf249
+m	cpp:S1117m"&declaration shadows a field of 'Image'(ÔÔ±úÿÿÿÿ8Ğ«ñ¢û1J$a5240ec4-e74f-41dd-ba43-48b9deff5e23
+o	cpp:S1117"'declaration shadows a field of 'Button'(Îößêûÿÿÿÿ8Æ˜æ¢û1J$88d1cc0e-c01d-418d-8d66-551ddec208cb
+h	cpp:S1117±"%declaration shadows a field of 'Text'(æŒìÄ8Æ˜æ¢û1J$728670da-21c0-417c-a5b5-714412b0d66d
+h	cpp:S1117³"%declaration shadows a field of 'Text'(ñ‚²ü8Ç˜æ¢û1J$75e46fb3-c1d6-4856-b2de-5ae101f317a2
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(®²µñùÿÿÿÿ8ÚÕ°—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(‚´úàÿÿÿÿÿ8ÚÕ°—ü1
+T	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ÌÂóÉ8ÚÕ°—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(½¾ç­şÿÿÿÿ8ÛÕ°—ü1
+B	cpp:S11172"&declaration shadows a field of 'Mouse'(æŒìÄ8ª×°—ü1
+B	cpp:S11174"&declaration shadows a field of 'Mouse'(ñ‚²ü8ª×°—ü1
+B	cpp:S1117e"&declaration shadows a field of 'Image'(æŒìÄ8ª×°—ü1
+B	cpp:S1117g"&declaration shadows a field of 'Image'(ñ‚²ü8«×°—ü1
+G	cpp:S1117i"&declaration shadows a field of 'Image'(ÌÖ¹¹üÿÿÿÿ8«×°—ü1
+B	cpp:S1117k"&declaration shadows a field of 'Image'(ı¯ú8«×°—ü1
+G	cpp:S1117m"&declaration shadows a field of 'Image'(ÔÔ±úÿÿÿÿ8«×°—ü1
+I	cpp:S1117"'declaration shadows a field of 'Button'(Îößêûÿÿÿÿ8«×°—ü1
+B	cpp:S1117±"%declaration shadows a field of 'Text'(æŒìÄ8«×°—ü1
+B	cpp:S1117³"%declaration shadows a field of 'Text'(ñ‚²ü8¬×°—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(®²µñùÿÿÿÿ8†è°—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(‚´úàÿÿÿÿÿ8‡è°—ü1
+T	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ÌÂóÉ8‡è°—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(½¾ç­şÿÿÿÿ8‡è°—ü1
+B	cpp:S11172"&declaration shadows a field of 'Mouse'(æŒìÄ8àé°—ü1
+B	cpp:S11174"&declaration shadows a field of 'Mouse'(ñ‚²ü8áé°—ü1
+B	cpp:S1117e"&declaration shadows a field of 'Image'(æŒìÄ8áé°—ü1
+B	cpp:S1117g"&declaration shadows a field of 'Image'(ñ‚²ü8áé°—ü1
+G	cpp:S1117i"&declaration shadows a field of 'Image'(ÌÖ¹¹üÿÿÿÿ8áé°—ü1
+B	cpp:S1117k"&declaration shadows a field of 'Image'(ı¯ú8áé°—ü1
+G	cpp:S1117m"&declaration shadows a field of 'Image'(ÔÔ±úÿÿÿÿ8âé°—ü1
+I	cpp:S1117"'declaration shadows a field of 'Button'(Îößêûÿÿÿÿ8âé°—ü1
+B	cpp:S1117±"%declaration shadows a field of 'Text'(æŒìÄ8âé°—ü1
+B	cpp:S1117³"%declaration shadows a field of 'Text'(ñ‚²ü8âé°—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(®²µñùÿÿÿÿ8Òú°—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(‚´úàÿÿÿÿÿ8Òú°—ü1
+T	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ÌÂóÉ8Óú°—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(½¾ç­şÿÿÿÿ8Óú°—ü1
+B	cpp:S11172"&declaration shadows a field of 'Mouse'(æŒìÄ8Âü°—ü1
+B	cpp:S11174"&declaration shadows a field of 'Mouse'(ñ‚²ü8Âü°—ü1
+B	cpp:S1117e"&declaration shadows a field of 'Image'(æŒìÄ8Ìü°—ü1
+B	cpp:S1117g"&declaration shadows a field of 'Image'(ñ‚²ü8Íü°—ü1
+G	cpp:S1117i"&declaration shadows a field of 'Image'(ÌÖ¹¹üÿÿÿÿ8Îü°—ü1
+B	cpp:S1117k"&declaration shadows a field of 'Image'(ı¯ú8Îü°—ü1
+G	cpp:S1117m"&declaration shadows a field of 'Image'(ÔÔ±úÿÿÿÿ8Îü°—ü1
+I	cpp:S1117"'declaration shadows a field of 'Button'(Îößêûÿÿÿÿ8Ïü°—ü1
+B	cpp:S1117±"%declaration shadows a field of 'Text'(æŒìÄ8Ïü°—ü1
+B	cpp:S1117³"%declaration shadows a field of 'Text'(ñ‚²ü8Ğü°—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(®²µñùÿÿÿÿ8È±—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(‚´úàÿÿÿÿÿ8É±—ü1
+T	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ÌÂóÉ8Ê±—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(½¾ç­şÿÿÿÿ8Ê±—ü1
+B	cpp:S11172"&declaration shadows a field of 'Mouse'(æŒìÄ8Ô±—ü1
+B	cpp:S11174"&declaration shadows a field of 'Mouse'(ñ‚²ü8Ô±—ü1
+B	cpp:S1117e"&declaration shadows a field of 'Image'(æŒìÄ8Ô±—ü1
+B	cpp:S1117g"&declaration shadows a field of 'Image'(ñ‚²ü8Õ±—ü1
+G	cpp:S1117i"&declaration shadows a field of 'Image'(ÌÖ¹¹üÿÿÿÿ8Õ±—ü1
+B	cpp:S1117k"&declaration shadows a field of 'Image'(ı¯ú8Õ±—ü1
+G	cpp:S1117m"&declaration shadows a field of 'Image'(ÔÔ±úÿÿÿÿ8Õ±—ü1
+I	cpp:S1117"'declaration shadows a field of 'Button'(Îößêûÿÿÿÿ8Ö±—ü1
+B	cpp:S1117±"%declaration shadows a field of 'Text'(æŒìÄ8Ö±—ü1
+B	cpp:S1117³"%declaration shadows a field of 'Text'(ñ‚²ü8Ö±—ü1
+B	cpp:S1068¨" private field 'size' is not used(ëèëùúÿÿÿÿ8×±—ü1
+>	cpp:S1068©"!private field 'color' is not used(¿òœ®8×±—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(®²µñùÿÿÿÿ8ñ·±—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(‚´úàÿÿÿÿÿ8ñ·±—ü1
+T	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ÌÂóÉ8ñ·±—ü1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(½¾ç­şÿÿÿÿ8ò·±—ü1
+B	cpp:S11172"&declaration shadows a field of 'Mouse'(æŒìÄ8¼¹±—ü1
+B	cpp:S11174"&declaration shadows a field of 'Mouse'(ñ‚²ü8¼¹±—ü1
+B	cpp:S1117e"&declaration shadows a field of 'Image'(æŒìÄ8¼¹±—ü1
+B	cpp:S1117g"&declaration shadows a field of 'Image'(ñ‚²ü8¼¹±—ü1
+G	cpp:S1117i"&declaration shadows a field of 'Image'(ÌÖ¹¹üÿÿÿÿ8½¹±—ü1
+B	cpp:S1117k"&declaration shadows a field of 'Image'(ı¯ú8½¹±—ü1
+G	cpp:S1117m"&declaration shadows a field of 'Image'(ÔÔ±úÿÿÿÿ8½¹±—ü1
+I	cpp:S1117"'declaration shadows a field of 'Button'(Îößêûÿÿÿÿ8¾¹±—ü1
+B	cpp:S1117±"%declaration shadows a field of 'Text'(æŒìÄ8¾¹±—ü1
+B	cpp:S1117³"%declaration shadows a field of 'Text'(ñ‚²ü8¾¹±—ü1
+c	cpp:S1003"Remove this using-directive.(ÉÔ³òÿÿÿÿÿ8ÔÉ¦«ú1J$ebcd78d7-2c65-40bd-aee5-017e6359c80a
+h	cpp:S3642"&Replace this "enum" with "enum class".(ûØÖ8³©ºÛú1J$dada55fb-c421-4da7-9447-052aa15f4b7b
+m	cpp:S3642"&Replace this "enum" with "enum class".(”¢¢Ôÿÿÿÿÿ8³©ºÛú1J$6383386e-4cd7-4e6b-af42-e01ac6a4c5dc
+m	cpp:S3656P"+Member variables should not be "protected".(”†ôÅ8óİúÓú1J$916fcbae-79c5-43af-8cab-1392d4e245e6

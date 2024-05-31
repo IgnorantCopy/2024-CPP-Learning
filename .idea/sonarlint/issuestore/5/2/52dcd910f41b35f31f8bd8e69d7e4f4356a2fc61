@@ -1,0 +1,5 @@
+
+6	cpp:S1003	"Remove this using-directive.(ÉÔ³òÿÿÿÿÿ
+P	cpp:S5416";"using" should be preferred to "typedef" for type aliasing.(Ê©ôö
+U	cpp:S5416";"using" should be preferred to "typedef" for type aliasing.(× »úÿÿÿÿ
+D	cpp:S1709"/Add the "explicit" keyword to this constructor.(ß÷ô

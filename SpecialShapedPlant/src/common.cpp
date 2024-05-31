@@ -97,6 +97,27 @@ void Gif::draw() {
     currentFrame = (currentFrame + 1) % totalFrames;
 }
 
+int Gif::drawOnce() {
+    if (currentFrame < totalFrames) {
+        IMAGE image;
+        loadimage(&image, (filename + '-' + to_string(currentFrame + 1) + ".png").c_str(), width, height);
+        putTransparentImage(x, y, nullptr, &image);
+        currentFrame++;
+        return 0;
+    }
+    return 1;
+}
+
+void Button::draw() {
+    image1->draw();
+    if (image1->isSuspended()) {
+        image2->draw();
+        status = 1;
+    } else {
+        status = 0;
+    }
+}
+
 Text::Text(const string& font, const string& text, int size, COLORREF color):
         font(font), text(text), size(size), color(color) {
     settextstyle(size, 0, font.c_str());

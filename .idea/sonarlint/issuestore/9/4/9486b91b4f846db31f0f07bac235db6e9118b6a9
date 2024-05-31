@@ -1,0 +1,10 @@
+
+h	cpp:S1103"&Remove the misleading "//" characters.(íüê„8ùìÅÄü1J$2b991a20-6ae6-453d-8936-bf7abf51b846
+h	cpp:S1103""&Remove the misleading "//" characters.(íüê„8œéğÄü1J$ef359259-79e0-4c88-b81b-3abf3a594c00
+	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(ş§Äî8çæÌÄü1J$7c704ebb-9a23-400c-b0fe-2116fdcff7e5
+„	cpp:S5945&"=Use "std::array" or "std::vector" instead of a C-style array.(Å·ÁÎüÿÿÿÿ8²îôÄü1J$518a8707-5e64-4b38-8c05-739f4df7f773
+^cpp:S9357">non-void function does not return a value in all control paths(æÀö€øÿÿÿÿ8¿Ì‘Åü1
+„	cpp:S5945;"=Use "std::array" or "std::vector" instead of a C-style array.(¸Šü–ùÿÿÿÿ8€üèÄü1J$e0824737-d170-4a8a-8be6-be630c2770bd
+„	cpp:S5945>"=Use "std::array" or "std::vector" instead of a C-style array.(ß¦¥ñûÿÿÿÿ8šÉêÄü1J$aff0faa5-32be-4aa4-921d-c8c7b0b0cf5e
+_cpp:S125"Remove the commented out code.(–±Ù8“ºÂÄü1J$9e234a16-e524-479c-aeaf-2189af303e49
+_cpp:S125"Remove the commented out code.(–±Ù8¹îÄü1J$2b52d8e0-a2b0-4ee7-b655-88a6652f858b

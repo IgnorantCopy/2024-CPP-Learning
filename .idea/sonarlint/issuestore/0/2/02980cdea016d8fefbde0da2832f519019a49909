@@ -1,0 +1,7 @@
+
+š	cpp:S3539y"SRemove this redundant access specifier; it does not change the accessibility level.(îĞÎúüÿÿÿÿ8˜åÄåü1J$dca368d6-50be-4d5e-be4c-6fe70ce8daaf
+ª	cpp:S3624"âExplicitly define or delete the missing copy constructor and copy assignment operator so that they will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(ŞÈ¡İşÿÿÿÿ8™åÄåü1J$9ccb40d0-0b4e-442c-bbb0-df4010694516
+	cpp:S4963"IRemove this class' destructor so that the class follows the rule of Zero.(ŞÈ¡İşÿÿÿÿ8óÀ¢åü1J$61fab05e-6348-42b0-b3d1-5607024239db
+v	cpp:S1709z"/Add the "explicit" keyword to this constructor.(¾ÙŠôûÿÿÿÿ8‚Á¢åü1J$8ddcd3b6-5b48-457b-a005-e4b02d9d5642
+“	cpp:S5025~"QReplace the use of "new" with an operation that automatically manages the memory.(şúûí8‚Á¢åü1J$2dbfed6a-e17b-4539-9e14-dda6a50f228a
+‚	cpp:S5025†":Rewrite the code so that you no longer need this "delete".(Ïó«†ÿÿÿÿÿ8‚Á¢åü1J$615288b2-b8e2-48b0-ace6-f24d26146e74

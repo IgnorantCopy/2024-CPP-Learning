@@ -1,4 +1,8 @@
 
+T	cpp:S5028	"8Replace this macro by "const", "constexpr" or an "enum".(ÌÂóÉ8õ·Éú1
+Y	cpp:S5028
+"8Replace this macro by "const", "constexpr" or an "enum".(•¿»Èüÿÿÿÿ8õ·Éú1
+Y	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ö”›ùøÿÿÿÿ8ö·Éú1
 ¤	cpp:S5350"bMake the type of this variable a pointer-to-const. The current type of "src" is "unsigned long *".(í´ğµ8ÑË‡¥ú1J$e15778f9-600d-4554-a9cc-96478f781fca
 ”cpp:S134‡"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ùİùÿÿÿÿÿ8¿àŞ¤ú1J$74468b05-8e0d-4bf5-b693-4a2e80534b19
 ”cpp:S134‘"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ùİùÿÿÿÿÿ8¿àŞ¤ú1J$7a7f036a-d646-4a38-a5ac-f8535ae70a24

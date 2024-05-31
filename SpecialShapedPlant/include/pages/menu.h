@@ -7,7 +7,7 @@
 
 #include "common.h"
 
-void drawMenu();
+Status drawMenu();
 
 Status doMenuLogic();
 

@@ -5,6 +5,7 @@
 #include <iostream>
 #include "common.h"
 #include "pages/menu.h"
+#include "pages/game.h"
 
 using namespace std;
 
@@ -14,6 +15,8 @@ Status doLogic(Page page) {
     switch (page) {
         case Page::MENU:
             return doMenuLogic();
+        case Page::GAME:
+            return doGameLogic();
         default:
             break;
     }
@@ -29,10 +32,23 @@ int main() {
     setbkmode(TRANSPARENT);
     // 清除窗口
     cleardevice();
-    
-    while (doLogic(Page::MENU) == Status::CONTINUE) {
+    Status status = Status::CONTINUE;
+    Page page = Page::MENU;
+    int count = 0;
+    while (status == Status::CONTINUE) {
+        status = doLogic(page);
+        page = (Page) (page + (int) status);
+        if (status == Status::NEXT_PAGE && count == 0) {
+            count = 1;
+            initGame();
+            status = Status::CONTINUE;
+        }
+        if (status == Status::LAST_PAGE && count == 1) {
+            count = 0;
+        }
         Sleep(1000 / FPS);
     }
+    
     
     // 关闭窗口
     closegraph();
