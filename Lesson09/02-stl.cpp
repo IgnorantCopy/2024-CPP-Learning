@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <vector>
+#include <list>
 #include <map>
 #include <algorithm>
 #include <numeric>
@@ -28,7 +29,6 @@ using namespace std;
  *      * basic_string<char type>
  *          string == basic_string<char>
  *          wstring == basic_string<wchar_t>
- *  > Algorithms: searching, sorting, counting, summing, etc.
  *  > Iterator
  *      * output iterator: can only modify the elements pointed to by the iterator, but not read them
  *          get indirectly: *
@@ -49,6 +49,15 @@ using namespace std;
  *          volumes: vector, deque, basic_string
  *      queue, stack, priority_queue do not have iterators
  *      random-access -> bidirectional -> forward -> input / output
+ *  > Algorithms: searching, sorting, counting, summing, etc.
+ *      operations for sequential containers:
+ *      * reordering algorithm
+ *      * editing algorithm
+ *      * searching algorithm
+ *      * arithmetical algorithm
+ *      * set algorithm
+ *      * heap algorithm
+ *      * traversal algorithm
  */
 
 void algorithmTest() {
@@ -112,11 +121,88 @@ void iteratorTest() {
     // Josephus Problem
     int number = 0;
     int n = 0;
+    cout << "Please input the number and the number of people: ";
+    cin >> number >> n;
+    list<int> people;
+    // initialize the list with numbers from 0 to number - 1
+    for (int i = 0; i < n; i++) {
+        people.push_back(i);
+    }
+    auto current = people.begin();
+    while (1 < people.size()) {
+        // start counting
+        for (int i = 1; i < number; i++) {
+            current++;
+            if (current == people.end()) {
+                current = people.begin();
+            }
+        }
+        // remove the current element from the list
+        current = people.erase(current);
+        if (current == people.end()) {
+            current = people.begin();
+        }
+    }
+    cout << "The survivor is: " << *current << endl;
+}
+
+class Student {
+    int id;
+    char gender;
+    string address;
+    string major;
+public:
+    Student(int i, char gen, string const& addr, string const& curriculum):
+            id(i), gender(gen), address(addr), major(curriculum) {}
+    
+    int getId() const { return this->id; }
+    char getGender() const { return this->gender; }
+    string getAddress() const { return this->address; }
+    string getMajor() const { return this->major; }
+    
+    void setId(int i) { this->id = i; }
+    void setGender(char gen) { this->gender = gen; }
+    void setAddress(string const& addr) { this->address = addr; }
+    void setMajor(string const& curriculum) { this->major = curriculum; }
+    
+    string toString() const {
+        return "<Student: ID: " + to_string(this->id) + ", Gender: " + this->gender + ", Address: "
+        + this->address + ", Major: " + this->major + " >";
+    }
+};
+
+bool compareStudent(const Student &stu1, const Student &stu2) {
+    return stu1.getId() < stu2.getId();
+}
+
+void displayStudents(const Student &stu) {
+    cout << stu.toString() << endl;
+}
+
+void studentTest() {
+    vector<Student> students;
+    int id = 0;
+    char gender = 'M';
+    string address;
+    string curriculum;
+    while (cin >> id >> gender >> address >> curriculum) {
+        Student newStudent(id, gender, address, curriculum);
+        students.push_back(newStudent);
+    }
+    for_each(students.begin(), students.end(), displayStudents);
+    sort(students.begin(), students.end(), compareStudent);
+    for_each(students.begin(), students.end(), displayStudents);
+    cout << "Number of students in Computer Science: " <<
+            count_if(students.begin(), students.end(),
+                     [](Student const& stu) {return stu.getMajor() == "CS";})
+         << endl;
 }
 
 int main() {
 //    algorithmTest();
 //    vectorTest();
-    mapTest();
+//    mapTest();
+//    iteratorTest();
+    studentTest();
     return 0;
 }
