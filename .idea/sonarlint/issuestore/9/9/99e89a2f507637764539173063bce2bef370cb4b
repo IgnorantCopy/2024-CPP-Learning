@@ -1,6 +1,0 @@
-
-	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(´­þ’8ŠÙƒ¡û1J$65d89f0d-0239-4ec2-9173-5eaaad3cd44c
-c	cpp:S5421"!Global variables should be const.(´­þ’8‹Ùƒ¡û1J$d96609de-d71c-4006-bb8b-e761fba6fbfa
-„	cpp:S5945	"=Use "std::array" or "std::vector" instead of a C-style array.(Î÷•’ùÿÿÿÿ8‹Ùƒ¡û1J$e606e1d9-3f6f-497c-97d9-24e8584cdc22
-h	cpp:S5421	"!Global variables should be const.(Î÷•’ùÿÿÿÿ8‹Ùƒ¡û1J$0a7ddd34-0acb-4264-8554-44a14f4bf585
-	cpp:S5945!"=Use "std::array" or "std::vector" instead of a C-style array.(ðÒí»8á“·¨û1J$47411d42-8575-44bf-90ea-af7de2ff0457

@@ -1,0 +1,4 @@
+
+p	cpp:S3776"TRefactor this function to reduce its Cognitive Complexity from 26 to the 25 allowed.(ζζ‹“8°σάε€2
+I	cpp:S1238"-Pass large object "cs" by reference to const.(ζζ‹“8°σάε€2
+hcpp:S134"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(΅κ²¬8°σάε€2

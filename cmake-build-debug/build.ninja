@@ -40,6 +40,39 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = D$:/codes/2024-CPP-Learning/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/test.cpp.obj: CXX_COMPILER__test_unscanned_Debug D$:/codes/2024-CPP-Learning/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\test.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test.exe
+
+build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1300,6 +1333,39 @@ build Lesson09/02-stl.exe: CXX_EXECUTABLE_LINKER__02-stl_Debug Lesson09/CMakeFil
   TARGET_IMPLIB = Lesson09\lib02-stl.dll.a
   TARGET_PDB = 02-stl.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-functional
+
+
+#############################################
+# Order-only phony target for 03-functional
+
+build cmake_object_order_depends_target_03-functional: phony || Lesson09/CMakeFiles/03-functional.dir
+
+build Lesson09/CMakeFiles/03-functional.dir/03-functional.cpp.obj: CXX_COMPILER__03-functional_unscanned_Debug D$:/codes/2024-CPP-Learning/Lesson09/03-functional.cpp || cmake_object_order_depends_target_03-functional
+  DEP_FILE = Lesson09\CMakeFiles\03-functional.dir\03-functional.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Lesson09\CMakeFiles\03-functional.dir
+  OBJECT_FILE_DIR = Lesson09\CMakeFiles\03-functional.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-functional
+
+
+#############################################
+# Link the executable Lesson09\03-functional.exe
+
+build Lesson09/03-functional.exe: CXX_EXECUTABLE_LINKER__03-functional_Debug Lesson09/CMakeFiles/03-functional.dir/03-functional.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Lesson09\CMakeFiles\03-functional.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Lesson09\03-functional.exe
+  TARGET_IMPLIB = Lesson09\lib03-functional.dll.a
+  TARGET_PDB = 03-functional.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1322,6 +1388,100 @@ build Lesson09/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build Lesson09/rebuild_cache: phony Lesson09/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/2024-CPP-Learning/Lesson09/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DataClass
+
+
+#############################################
+# Order-only phony target for DataClass
+
+build cmake_object_order_depends_target_DataClass: phony || Lesson09/homework/CMakeFiles/DataClass.dir
+
+build Lesson09/homework/CMakeFiles/DataClass.dir/DataClass.cpp.obj: CXX_COMPILER__DataClass_unscanned_Debug D$:/codes/2024-CPP-Learning/Lesson09/homework/DataClass.cpp || cmake_object_order_depends_target_DataClass
+  DEP_FILE = Lesson09\homework\CMakeFiles\DataClass.dir\DataClass.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Lesson09\homework\CMakeFiles\DataClass.dir
+  OBJECT_FILE_DIR = Lesson09\homework\CMakeFiles\DataClass.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DataClass
+
+
+#############################################
+# Link the executable Lesson09\homework\DataClass.exe
+
+build Lesson09/homework/DataClass.exe: CXX_EXECUTABLE_LINKER__DataClass_Debug Lesson09/homework/CMakeFiles/DataClass.dir/DataClass.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Lesson09\homework\CMakeFiles\DataClass.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Lesson09\homework\DataClass.exe
+  TARGET_IMPLIB = Lesson09\homework\libDataClass.dll.a
+  TARGET_PDB = DataClass.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BrainDuckInterpreter
+
+
+#############################################
+# Order-only phony target for BrainDuckInterpreter
+
+build cmake_object_order_depends_target_BrainDuckInterpreter: phony || Lesson09/homework/CMakeFiles/BrainDuckInterpreter.dir
+
+build Lesson09/homework/CMakeFiles/BrainDuckInterpreter.dir/BrainDuckInterpreter.cpp.obj: CXX_COMPILER__BrainDuckInterpreter_unscanned_Debug D$:/codes/2024-CPP-Learning/Lesson09/homework/BrainDuckInterpreter.cpp || cmake_object_order_depends_target_BrainDuckInterpreter
+  DEP_FILE = Lesson09\homework\CMakeFiles\BrainDuckInterpreter.dir\BrainDuckInterpreter.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = Lesson09\homework\CMakeFiles\BrainDuckInterpreter.dir
+  OBJECT_FILE_DIR = Lesson09\homework\CMakeFiles\BrainDuckInterpreter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BrainDuckInterpreter
+
+
+#############################################
+# Link the executable Lesson09\homework\BrainDuckInterpreter.exe
+
+build Lesson09/homework/BrainDuckInterpreter.exe: CXX_EXECUTABLE_LINKER__BrainDuckInterpreter_Debug Lesson09/homework/CMakeFiles/BrainDuckInterpreter.dir/BrainDuckInterpreter.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Lesson09\homework\CMakeFiles\BrainDuckInterpreter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Lesson09\homework\BrainDuckInterpreter.exe
+  TARGET_IMPLIB = Lesson09\homework\libBrainDuckInterpreter.dll.a
+  TARGET_PDB = BrainDuckInterpreter.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Lesson09/homework/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\Lesson09\homework && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Lesson09/homework/edit_cache: phony Lesson09/homework/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Lesson09/homework/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\Lesson09\homework && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\2024-CPP-Learning -BD:\codes\2024-CPP-Learning\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Lesson09/homework/rebuild_cache: phony Lesson09/homework/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -2077,178 +2237,97 @@ build _Exercise/06/rebuild_cache: phony _Exercise/06/CMakeFiles/rebuild_cache.ut
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# D:/codes/2024-CPP-Learning/CMakeLists.txt
+# D:/codes/2024-CPP-Learning/_Exercise/CMakeLists.txt
 # =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7-1
 
 
 #############################################
-# Utility command for edit_cache
+# Order-only phony target for 7-1
 
-build SpecialShapedPlant/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\SpecialShapedPlant && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
+build cmake_object_order_depends_target_7-1: phony || _Exercise/07/CMakeFiles/7-1.dir
 
-build SpecialShapedPlant/edit_cache: phony SpecialShapedPlant/CMakeFiles/edit_cache.util
+build _Exercise/07/CMakeFiles/7-1.dir/7-1.cpp.obj: CXX_COMPILER__7-1_unscanned_Debug D$:/codes/2024-CPP-Learning/_Exercise/07/7-1.cpp || cmake_object_order_depends_target_7-1
+  DEP_FILE = _Exercise\07\CMakeFiles\7-1.dir\7-1.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = _Exercise\07\CMakeFiles\7-1.dir
+  OBJECT_FILE_DIR = _Exercise\07\CMakeFiles\7-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7-1
 
 
 #############################################
-# Utility command for rebuild_cache
+# Link the executable _Exercise\07\7-1.exe
 
-build SpecialShapedPlant/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\SpecialShapedPlant && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\2024-CPP-Learning -BD:\codes\2024-CPP-Learning\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build SpecialShapedPlant/rebuild_cache: phony SpecialShapedPlant/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# D:/codes/2024-CPP-Learning/SpecialShapedPlant/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target SpecialShapedPlant
-
-
-#############################################
-# Order-only phony target for SpecialShapedPlant
-
-build cmake_object_order_depends_target_SpecialShapedPlant: phony || SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir
-
-build SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir/main.cpp.obj: CXX_COMPILER__SpecialShapedPlant_unscanned_Debug D$:/codes/2024-CPP-Learning/SpecialShapedPlant/src/main.cpp || cmake_object_order_depends_target_SpecialShapedPlant
-  DEP_FILE = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -ID:/codes/2024-CPP-Learning/SpecialShapedPlant/include
-  OBJECT_DIR = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir
-  OBJECT_FILE_DIR = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir
-
-build SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir/common.cpp.obj: CXX_COMPILER__SpecialShapedPlant_unscanned_Debug D$:/codes/2024-CPP-Learning/SpecialShapedPlant/src/common.cpp || cmake_object_order_depends_target_SpecialShapedPlant
-  DEP_FILE = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir\common.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -ID:/codes/2024-CPP-Learning/SpecialShapedPlant/include
-  OBJECT_DIR = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir
-  OBJECT_FILE_DIR = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir
-
-build SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir/pages/menu.cpp.obj: CXX_COMPILER__SpecialShapedPlant_unscanned_Debug D$:/codes/2024-CPP-Learning/SpecialShapedPlant/src/pages/menu.cpp || cmake_object_order_depends_target_SpecialShapedPlant
-  DEP_FILE = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir\pages\menu.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -ID:/codes/2024-CPP-Learning/SpecialShapedPlant/include
-  OBJECT_DIR = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir
-  OBJECT_FILE_DIR = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir\pages
-
-build SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir/pages/game.cpp.obj: CXX_COMPILER__SpecialShapedPlant_unscanned_Debug D$:/codes/2024-CPP-Learning/SpecialShapedPlant/src/pages/game.cpp || cmake_object_order_depends_target_SpecialShapedPlant
-  DEP_FILE = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir\pages\game.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -ID:/codes/2024-CPP-Learning/SpecialShapedPlant/include
-  OBJECT_DIR = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir
-  OBJECT_FILE_DIR = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir\pages
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target SpecialShapedPlant
-
-
-#############################################
-# Link the executable SpecialShapedPlant\src\SpecialShapedPlant.exe
-
-build SpecialShapedPlant/src/SpecialShapedPlant.exe: CXX_EXECUTABLE_LINKER__SpecialShapedPlant_Debug SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir/main.cpp.obj SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir/common.cpp.obj SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir/pages/menu.cpp.obj SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir/pages/game.cpp.obj
+build _Exercise/07/7-1.exe: CXX_EXECUTABLE_LINKER__7-1_Debug _Exercise/07/CMakeFiles/7-1.dir/7-1.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -Wl,-Bstatic  -leasyx  -Wl,-Bdynamic  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  LINK_PATH = -LD:/codes/2024-CPP-Learning/SpecialShapedPlant/lib64
-  OBJECT_DIR = SpecialShapedPlant\src\CMakeFiles\SpecialShapedPlant.dir
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _Exercise\07\CMakeFiles\7-1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = SpecialShapedPlant\src\SpecialShapedPlant.exe
-  TARGET_IMPLIB = SpecialShapedPlant\src\libSpecialShapedPlant.dll.a
-  TARGET_PDB = SpecialShapedPlant.exe.dbg
+  TARGET_FILE = _Exercise\07\7-1.exe
+  TARGET_IMPLIB = _Exercise\07\lib7-1.dll.a
+  TARGET_PDB = 7-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7-2
 
 
 #############################################
-# Utility command for edit_cache
+# Order-only phony target for 7-2
 
-build SpecialShapedPlant/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\SpecialShapedPlant\src && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
+build cmake_object_order_depends_target_7-2: phony || _Exercise/07/CMakeFiles/7-2.dir
 
-build SpecialShapedPlant/src/edit_cache: phony SpecialShapedPlant/src/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build SpecialShapedPlant/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\SpecialShapedPlant\src && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\2024-CPP-Learning -BD:\codes\2024-CPP-Learning\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build SpecialShapedPlant/src/rebuild_cache: phony SpecialShapedPlant/src/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# D:/codes/2024-CPP-Learning/SpecialShapedPlant/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target easyxTest
-
-
-#############################################
-# Order-only phony target for easyxTest
-
-build cmake_object_order_depends_target_easyxTest: phony || SpecialShapedPlant/test/CMakeFiles/easyxTest.dir
-
-build SpecialShapedPlant/test/CMakeFiles/easyxTest.dir/easyxTest.cpp.obj: CXX_COMPILER__easyxTest_unscanned_Debug D$:/codes/2024-CPP-Learning/SpecialShapedPlant/test/easyxTest.cpp || cmake_object_order_depends_target_easyxTest
-  DEP_FILE = SpecialShapedPlant\test\CMakeFiles\easyxTest.dir\easyxTest.cpp.obj.d
+build _Exercise/07/CMakeFiles/7-2.dir/7-2.cpp.obj: CXX_COMPILER__7-2_unscanned_Debug D$:/codes/2024-CPP-Learning/_Exercise/07/7-2.cpp || cmake_object_order_depends_target_7-2
+  DEP_FILE = _Exercise\07\CMakeFiles\7-2.dir\7-2.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -ID:/codes/2024-CPP-Learning/SpecialShapedPlant/include
-  OBJECT_DIR = SpecialShapedPlant\test\CMakeFiles\easyxTest.dir
-  OBJECT_FILE_DIR = SpecialShapedPlant\test\CMakeFiles\easyxTest.dir
+  OBJECT_DIR = _Exercise\07\CMakeFiles\7-2.dir
+  OBJECT_FILE_DIR = _Exercise\07\CMakeFiles\7-2.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target easyxTest
+# Link build statements for EXECUTABLE target 7-2
 
 
 #############################################
-# Link the executable SpecialShapedPlant\test\easyxTest.exe
+# Link the executable _Exercise\07\7-2.exe
 
-build SpecialShapedPlant/test/easyxTest.exe: CXX_EXECUTABLE_LINKER__easyxTest_Debug SpecialShapedPlant/test/CMakeFiles/easyxTest.dir/easyxTest.cpp.obj
+build _Exercise/07/7-2.exe: CXX_EXECUTABLE_LINKER__7-2_Debug _Exercise/07/CMakeFiles/7-2.dir/7-2.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -Wl,-Bstatic  -leasyx  -Wl,-Bdynamic  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  LINK_PATH = -LD:/codes/2024-CPP-Learning/SpecialShapedPlant/lib64
-  OBJECT_DIR = SpecialShapedPlant\test\CMakeFiles\easyxTest.dir
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _Exercise\07\CMakeFiles\7-2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = SpecialShapedPlant\test\easyxTest.exe
-  TARGET_IMPLIB = SpecialShapedPlant\test\libeasyxTest.dll.a
-  TARGET_PDB = easyxTest.exe.dbg
+  TARGET_FILE = _Exercise\07\7-2.exe
+  TARGET_IMPLIB = _Exercise\07\lib7-2.dll.a
+  TARGET_PDB = 7-2.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build SpecialShapedPlant/test/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\SpecialShapedPlant\test && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build _Exercise/07/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\_Exercise\07 && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build SpecialShapedPlant/test/edit_cache: phony SpecialShapedPlant/test/CMakeFiles/edit_cache.util
+build _Exercise/07/edit_cache: phony _Exercise/07/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build SpecialShapedPlant/test/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\SpecialShapedPlant\test && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\2024-CPP-Learning -BD:\codes\2024-CPP-Learning\cmake-build-debug"
+build _Exercise/07/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\2024-CPP-Learning\cmake-build-debug\_Exercise\07 && "D:\Program Files\apps\CLion\ch-0\241.14494.288\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\2024-CPP-Learning -BD:\codes\2024-CPP-Learning\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build SpecialShapedPlant/test/rebuild_cache: phony SpecialShapedPlant/test/CMakeFiles/rebuild_cache.util
+build _Exercise/07/rebuild_cache: phony _Exercise/07/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -2325,6 +2404,10 @@ build 03-friend: phony Lesson03/03-friend.exe
 
 build 03-friend.exe: phony Lesson03/03-friend.exe
 
+build 03-functional: phony Lesson09/03-functional.exe
+
+build 03-functional.exe: phony Lesson09/03-functional.exe
+
 build 2-1: phony _Exercise/02/2-1.exe
 
 build 2-1.exe: phony _Exercise/02/2-1.exe
@@ -2373,6 +2456,22 @@ build 6-3: phony _Exercise/06/6-3.exe
 
 build 6-3.exe: phony _Exercise/06/6-3.exe
 
+build 7-1: phony _Exercise/07/7-1.exe
+
+build 7-1.exe: phony _Exercise/07/7-1.exe
+
+build 7-2: phony _Exercise/07/7-2.exe
+
+build 7-2.exe: phony _Exercise/07/7-2.exe
+
+build BrainDuckInterpreter: phony Lesson09/homework/BrainDuckInterpreter.exe
+
+build BrainDuckInterpreter.exe: phony Lesson09/homework/BrainDuckInterpreter.exe
+
+build DataClass: phony Lesson09/homework/DataClass.exe
+
+build DataClass.exe: phony Lesson09/homework/DataClass.exe
+
 build List: phony Lesson05/homework/List.exe
 
 build List.exe: phony Lesson05/homework/List.exe
@@ -2413,10 +2512,6 @@ build SmartPointer: phony Lesson04/homework/SmartPointer.exe
 
 build SmartPointer.exe: phony Lesson04/homework/SmartPointer.exe
 
-build SpecialShapedPlant: phony SpecialShapedPlant/src/SpecialShapedPlant.exe
-
-build SpecialShapedPlant.exe: phony SpecialShapedPlant/src/SpecialShapedPlant.exe
-
 build String: phony Lesson05/homework/String.exe
 
 build String.exe: phony Lesson05/homework/String.exe
@@ -2424,10 +2519,6 @@ build String.exe: phony Lesson05/homework/String.exe
 build Vector: phony Lesson05/homework/Vector.exe
 
 build Vector.exe: phony Lesson05/homework/Vector.exe
-
-build easyxTest: phony SpecialShapedPlant/test/easyxTest.exe
-
-build easyxTest.exe: phony SpecialShapedPlant/test/easyxTest.exe
 
 build meQueue: phony Lesson03/homework/meQueue.exe
 
@@ -2437,6 +2528,8 @@ build myStack: phony Lesson03/homework/myStack.exe
 
 build myStack.exe: phony Lesson03/homework/myStack.exe
 
+build test: phony test.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -2445,7 +2538,7 @@ build myStack.exe: phony Lesson03/homework/myStack.exe
 #############################################
 # Folder: D:/codes/2024-CPP-Learning/cmake-build-debug
 
-build all: phony Lesson01/all Lesson02/all Lesson03/all Lesson04/all Lesson05/all Lesson06/all Lesson07/all Lesson08/all Lesson09/all _Valley/all _Exercise/all SpecialShapedPlant/all
+build all: phony test.exe Lesson01/all Lesson02/all Lesson03/all Lesson04/all Lesson05/all Lesson06/all Lesson07/all Lesson08/all Lesson09/all _Valley/all _Exercise/all
 
 # =============================================================================
 
@@ -2529,35 +2622,21 @@ build Lesson08/all: phony Lesson08/01-exception.exe
 #############################################
 # Folder: D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09
 
-build Lesson09/all: phony Lesson09/01-template.exe Lesson09/02-stl.exe
+build Lesson09/all: phony Lesson09/01-template.exe Lesson09/02-stl.exe Lesson09/03-functional.exe Lesson09/homework/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant
+# Folder: D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/homework
 
-build SpecialShapedPlant/all: phony SpecialShapedPlant/src/all SpecialShapedPlant/test/all
-
-# =============================================================================
-
-#############################################
-# Folder: D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/src
-
-build SpecialShapedPlant/src/all: phony SpecialShapedPlant/src/SpecialShapedPlant.exe
-
-# =============================================================================
-
-#############################################
-# Folder: D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/test
-
-build SpecialShapedPlant/test/all: phony SpecialShapedPlant/test/easyxTest.exe
+build Lesson09/homework/all: phony Lesson09/homework/DataClass.exe Lesson09/homework/BrainDuckInterpreter.exe
 
 # =============================================================================
 
 #############################################
 # Folder: D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise
 
-build _Exercise/all: phony _Exercise/02/all _Exercise/03/all _Exercise/04/all _Exercise/05/all _Exercise/06/all
+build _Exercise/all: phony _Exercise/02/all _Exercise/03/all _Exercise/04/all _Exercise/05/all _Exercise/06/all _Exercise/07/all
 
 # =============================================================================
 
@@ -2597,6 +2676,13 @@ build _Exercise/06/all: phony _Exercise/06/6-1.exe _Exercise/06/6-2.exe _Exercis
 # =============================================================================
 
 #############################################
+# Folder: D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/07
+
+build _Exercise/07/all: phony _Exercise/07/7-1.exe _Exercise/07/7-2.exe
+
+# =============================================================================
+
+#############################################
 # Folder: D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley
 
 build _Valley/all: phony _Valley/Intro/all
@@ -2615,14 +2701,14 @@ build _Valley/Intro/all: phony _Valley/Intro/P5082.exe _Valley/Intro/P1085.exe _
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/codes/2024-CPP-Learning/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson01/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson02/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson03/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson03/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson04/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson04/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson05/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson05/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson06/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson07/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson08/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson09/CMakeLists.txt D$:/codes/2024-CPP-Learning/SpecialShapedPlant/CMakeLists.txt D$:/codes/2024-CPP-Learning/SpecialShapedPlant/src/CMakeLists.txt D$:/codes/2024-CPP-Learning/SpecialShapedPlant/test/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/02/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/03/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/04/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/05/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/06/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Valley/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Valley/Intro/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/codes/2024-CPP-Learning/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson01/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson02/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson03/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson03/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson04/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson04/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson05/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson05/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson06/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson07/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson08/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson09/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson09/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/02/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/03/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/04/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/05/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/06/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/07/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Valley/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Valley/Intro/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/codes/2024-CPP-Learning/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson01/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson02/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson03/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson03/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson04/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson04/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson05/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson05/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson06/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson07/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson08/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson09/CMakeLists.txt D$:/codes/2024-CPP-Learning/SpecialShapedPlant/CMakeLists.txt D$:/codes/2024-CPP-Learning/SpecialShapedPlant/src/CMakeLists.txt D$:/codes/2024-CPP-Learning/SpecialShapedPlant/test/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/02/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/03/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/04/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/05/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/06/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Valley/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Valley/Intro/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files/apps/CLion/ch-0/241.14494.288/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/codes/2024-CPP-Learning/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson01/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson02/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson03/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson03/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson04/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson04/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson05/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson05/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson06/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson07/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson08/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson09/CMakeLists.txt D$:/codes/2024-CPP-Learning/Lesson09/homework/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/02/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/03/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/04/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/05/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/06/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/07/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Exercise/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Valley/CMakeLists.txt D$:/codes/2024-CPP-Learning/_Valley/Intro/CMakeLists.txt: phony
 
 
 #############################################

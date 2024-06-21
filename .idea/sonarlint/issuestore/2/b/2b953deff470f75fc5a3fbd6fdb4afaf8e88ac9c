@@ -1,0 +1,5 @@
+
+\	cpp:S1003"Remove this using-directive.(ÉÔ³òÿÿÿÿÿJ$f6c89996-f412-4969-a4ba-2f56e7e22875
+ 	cpp:S3230'"`Do not assign data members in a constructor. Initialize member "name" in an initialization list.(ö®Ü›øÿÿÿÿJ$59ed3271-6c62-4c51-9e2d-422ab8eaa0b0
+¢	cpp:S3230("bDo not assign data members in a constructor. Initialize member "parent" in an initialization list.(›Î¡àúÿÿÿÿJ$0de4f040-b85e-434b-94ed-c7d252f49de0
+j	cpp:S1709&"/Add the "explicit" keyword to this constructor.(¶‡áªJ$fd381dea-6288-4f5b-b047-2215d3836e1f

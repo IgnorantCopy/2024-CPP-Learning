@@ -1,0 +1,6 @@
+
+ª	cpp:S3624F"âExplicitly define or delete the missing copy constructor and copy assignment operator so that they will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(Ñ¨»›øÿÿÿÿ8¿èç„2J$0f654a5e-1d24-43dc-a714-e42044bbde73
+	cpp:S4963F"IRemove this class' destructor so that the class follows the rule of Zero.(Ñ¨»›øÿÿÿÿ8Àèç„2J$677fe679-4dd7-4c57-b526-8ad71098a7cd
+…	cpp:S5502P"dExpression statements should have at most one resource allocation. Consider using factory functions.(³óªİüÿÿÿÿ8üçí„2
+	cpp:S5025Z":Rewrite the code so that you no longer need this "delete".(‚ÏÁşÿÿÿÿ8Âèç„2J$4ed4ed74-5ec3-49cf-b6f5-6b5d31dffe59
+dcpp:S125("Remove the commented out code.(Œ§¸œûÿÿÿÿ8÷Šæ„2J$91336672-2e7b-4d70-ad86-d0a726958791

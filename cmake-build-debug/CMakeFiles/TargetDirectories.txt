@@ -1,3 +1,4 @@
+D:/codes/2024-CPP-Learning/cmake-build-debug/CMakeFiles/test.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson01/CMakeFiles/01-Hello.dir
@@ -50,8 +51,13 @@ D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson08/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson08/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/CMakeFiles/01-template.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/CMakeFiles/02-stl.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/CMakeFiles/03-functional.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/homework/CMakeFiles/DataClass.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/homework/CMakeFiles/BrainDuckInterpreter.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/homework/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson09/homework/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Valley/Intro/CMakeFiles/P5082.dir
@@ -84,11 +90,7 @@ D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/06/CMakeFiles/6-2.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/06/CMakeFiles/6-3.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/06/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/06/CMakeFiles/rebuild_cache.dir
-D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/CMakeFiles/edit_cache.dir
-D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/CMakeFiles/rebuild_cache.dir
-D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/src/CMakeFiles/SpecialShapedPlant.dir
-D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/src/CMakeFiles/edit_cache.dir
-D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/src/CMakeFiles/rebuild_cache.dir
-D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/test/CMakeFiles/easyxTest.dir
-D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/test/CMakeFiles/edit_cache.dir
-D:/codes/2024-CPP-Learning/cmake-build-debug/SpecialShapedPlant/test/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/07/CMakeFiles/7-1.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/07/CMakeFiles/7-2.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/07/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/07/CMakeFiles/rebuild_cache.dir
