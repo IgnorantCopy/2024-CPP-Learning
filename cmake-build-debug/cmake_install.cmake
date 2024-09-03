@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Program Files/apps/CLion/ch-0/241.14494.288/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Program Files (x86)/CLion/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -90,6 +90,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -1,4 +1,3 @@
-D:/codes/2024-CPP-Learning/cmake-build-debug/CMakeFiles/test.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/Lesson01/CMakeFiles/01-Hello.dir
@@ -94,3 +93,12 @@ D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/07/CMakeFiles/7-1.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/07/CMakeFiles/7-2.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/07/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_Exercise/07/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/number.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/peach.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/fraction.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/drawer.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/train.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/rebuild_cache.dir

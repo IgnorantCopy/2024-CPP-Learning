@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test.exe"
+			"path" : "_NewExercise/01-Numerate/fraction.exe"
 		},
 		{
-			"path" : "test.pdb"
+			"path" : "_NewExercise/01-Numerate/fraction.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"_NewExercise/01-Numerate/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 3,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "test::@6890427a1f51a3e7e1df",
+	"id" : "fraction::@b9cefe46a47c0d741766",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,12 +76,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test",
-	"nameOnDisk" : "test.exe",
+	"name" : "fraction",
+	"nameOnDisk" : "fraction.exe",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "_NewExercise/01-Numerate",
+		"source" : "_NewExercise/01-Numerate"
 	},
 	"sourceGroups" : 
 	[
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test.cpp",
+			"path" : "_NewExercise/01-Numerate/fraction.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

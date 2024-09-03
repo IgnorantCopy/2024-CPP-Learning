@@ -1,0 +1,5 @@
+add_executable(number number.cpp)
+add_executable(peach peach.cpp)
+add_executable(fraction fraction.cpp)
+add_executable(drawer drawer.cpp)
+add_executable(train train.cpp)

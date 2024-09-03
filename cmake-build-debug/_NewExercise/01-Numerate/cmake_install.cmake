@@ -1,4 +1,4 @@
-# Install script for directory: D:/codes/2024-CPP-Learning/_Exercise/05
+# Install script for directory: D:/codes/2024-CPP-Learning/_NewExercise/01-Numerate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

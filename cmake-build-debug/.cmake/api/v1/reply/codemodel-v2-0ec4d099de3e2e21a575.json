@@ -18,7 +18,8 @@
 						11,
 						12,
 						14,
-						16
+						16,
+						23
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -26,11 +27,7 @@
 						"string" : "3.27"
 					},
 					"projectIndex" : 0,
-					"source" : ".",
-					"targetIndexes" : 
-					[
-						49
-					]
+					"source" : "."
 				},
 				{
 					"build" : "Lesson01",
@@ -96,8 +93,8 @@
 					"source" : "Lesson03/homework",
 					"targetIndexes" : 
 					[
-						47,
-						48
+						49,
+						50
 					]
 				},
 				{
@@ -411,6 +408,40 @@
 						31,
 						32
 					]
+				},
+				{
+					"build" : "_NewExercise",
+					"childIndexes" : 
+					[
+						24
+					],
+					"jsonFile" : "directory-_NewExercise-Debug-d3ea2088a6c71a7884ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "_NewExercise"
+				},
+				{
+					"build" : "_NewExercise/01-Numerate",
+					"jsonFile" : "directory-_NewExercise.01-Numerate-Debug-35610c10623a8ae6b94f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 23,
+					"projectIndex" : 0,
+					"source" : "_NewExercise/01-Numerate",
+					"targetIndexes" : 
+					[
+						47,
+						48,
+						51,
+						52,
+						53
+					]
 				}
 			],
 			"name" : "Debug",
@@ -441,7 +472,9 @@
 						19,
 						20,
 						21,
-						22
+						22,
+						23,
+						24
 					],
 					"name" : "2024_CPP_Learning",
 					"targetIndexes" : 
@@ -495,7 +528,11 @@
 						46,
 						47,
 						48,
-						49
+						49,
+						50,
+						51,
+						52,
+						53
 					]
 				}
 			],
@@ -831,6 +868,20 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 24,
+					"id" : "drawer::@b9cefe46a47c0d741766",
+					"jsonFile" : "target-drawer-Debug-e81380ec20703c720c49.json",
+					"name" : "drawer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "fraction::@b9cefe46a47c0d741766",
+					"jsonFile" : "target-fraction-Debug-83ac83bd8fe141919655.json",
+					"name" : "fraction",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 4,
 					"id" : "meQueue::@05cc3c74b693b91f6a04",
 					"jsonFile" : "target-meQueue-Debug-a08bb803343b517bb888.json",
@@ -845,10 +896,24 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 0,
-					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-b3d3cbd2723456794c41.json",
-					"name" : "test",
+					"directoryIndex" : 24,
+					"id" : "number::@b9cefe46a47c0d741766",
+					"jsonFile" : "target-number-Debug-8dd0ce1b510981b78270.json",
+					"name" : "number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "peach::@b9cefe46a47c0d741766",
+					"jsonFile" : "target-peach-Debug-386736721323a93ff003.json",
+					"name" : "peach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "train::@b9cefe46a47c0d741766",
+					"jsonFile" : "target-train-Debug-383364a39cc76d8503a6.json",
+					"name" : "train",
 					"projectIndex" : 0
 				}
 			]
