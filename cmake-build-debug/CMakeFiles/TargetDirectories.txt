@@ -102,3 +102,10 @@ D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles
 D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/train.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/01-arange.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/03-poland.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/02-apple.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/04-chess.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/05-tree.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/rebuild_cache.dir

@@ -14,10 +14,10 @@ using namespace std;
 
 class Node {
 public:
-    int data;
+    int index;
     Node* next = nullptr;
     
-    explicit Node(int d) : data(d) {}
+    explicit Node(int d) : index(d) {}
 };
 
 class LinearList {
@@ -86,7 +86,7 @@ public:
             cout << "Index out of range." << endl;
             return -1;
         }
-        return current->data;
+        return current->index;
     }
     
     void setElement(int data, int index) {
@@ -100,7 +100,7 @@ public:
             cout << "Index out of range." << endl;
             return;
         }
-        current->data = data;
+        current->index = data;
     }
     
     void insert(int data, int index) {

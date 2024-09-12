@@ -221,6 +221,9 @@
 		},
 		{
 			"path" : "_NewExercise/01-Numerate/CMakeLists.txt"
+		},
+		{
+			"path" : "_NewExercise/02-Recursive/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

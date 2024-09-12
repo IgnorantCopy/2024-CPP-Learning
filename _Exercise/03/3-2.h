@@ -24,7 +24,7 @@ public:
     void output() const;
 
 private:
-    vector<int> coefficients_; // bonus: maybe more efficient data structures?
+    vector<int> coefficients_; // bonus: maybe more efficient index structures?
     // TODO: add any members if you want
 };
 
