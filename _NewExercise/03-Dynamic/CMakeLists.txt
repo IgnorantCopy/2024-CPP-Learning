@@ -1,0 +1,6 @@
+add_subdirectory(extra)
+add_executable(01-triangle 01-triangle.cpp)
+add_executable(02-missile 02-missile.cpp)
+add_executable(03-distance 03-distance.cpp)
+add_executable(04-sail 04-sail.cpp)
+add_executable(05-optimalAdding 05-optimalAdding.cpp)

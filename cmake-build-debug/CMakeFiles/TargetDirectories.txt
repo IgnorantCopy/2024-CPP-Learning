@@ -109,3 +109,14 @@ D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFile
 D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/05-tree.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/edit_cache.dir
 D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/CMakeFiles/01-triangle.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/CMakeFiles/02-missile.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/CMakeFiles/03-distance.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/CMakeFiles/04-sail.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/CMakeFiles/05-optimalAdding.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/CMakeFiles/rebuild_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/extra/CMakeFiles/01-steal.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/extra/CMakeFiles/02-stealPro.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/extra/CMakeFiles/edit_cache.dir
+D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/extra/CMakeFiles/rebuild_cache.dir

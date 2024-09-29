@@ -224,6 +224,12 @@
 		},
 		{
 			"path" : "_NewExercise/02-Recursive/CMakeLists.txt"
+		},
+		{
+			"path" : "_NewExercise/03-Dynamic/CMakeLists.txt"
+		},
+		{
+			"path" : "_NewExercise/03-Dynamic/extra/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

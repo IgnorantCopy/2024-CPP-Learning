@@ -42,7 +42,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						13
+						15
 					]
 				},
 				{
@@ -77,8 +77,8 @@
 					"targetIndexes" : 
 					[
 						3,
-						15,
-						19
+						18,
+						24
 					]
 				},
 				{
@@ -93,8 +93,8 @@
 					"source" : "Lesson03/homework",
 					"targetIndexes" : 
 					[
-						54,
-						55
+						61,
+						62
 					]
 				},
 				{
@@ -114,7 +114,7 @@
 					"targetIndexes" : 
 					[
 						7,
-						14
+						16
 					]
 				},
 				{
@@ -129,9 +129,9 @@
 					"source" : "Lesson04/homework",
 					"targetIndexes" : 
 					[
-						43,
-						48,
-						49
+						50,
+						55,
+						56
 					]
 				},
 				{
@@ -151,8 +151,8 @@
 					"targetIndexes" : 
 					[
 						5,
-						16,
-						18
+						19,
+						22
 					]
 				},
 				{
@@ -167,11 +167,11 @@
 					"source" : "Lesson05/homework",
 					"targetIndexes" : 
 					[
-						40,
-						41,
-						42,
-						50,
-						51
+						47,
+						48,
+						49,
+						57,
+						58
 					]
 				},
 				{
@@ -187,7 +187,7 @@
 					"targetIndexes" : 
 					[
 						1,
-						11
+						13
 					]
 				},
 				{
@@ -203,7 +203,7 @@
 					"targetIndexes" : 
 					[
 						6,
-						12
+						14
 					]
 				},
 				{
@@ -237,9 +237,9 @@
 					"source" : "Lesson09",
 					"targetIndexes" : 
 					[
-						9,
-						17,
-						20
+						10,
+						21,
+						25
 					]
 				},
 				{
@@ -254,8 +254,8 @@
 					"source" : "Lesson09/homework",
 					"targetIndexes" : 
 					[
-						38,
-						39
+						45,
+						46
 					]
 				},
 				{
@@ -285,10 +285,10 @@
 					"source" : "_Valley/Intro",
 					"targetIndexes" : 
 					[
-						44,
-						45,
-						46,
-						47
+						51,
+						52,
+						53,
+						54
 					]
 				},
 				{
@@ -323,9 +323,9 @@
 					"source" : "_Exercise/02",
 					"targetIndexes" : 
 					[
-						24,
-						25,
-						26
+						31,
+						32,
+						33
 					]
 				},
 				{
@@ -340,8 +340,8 @@
 					"source" : "_Exercise/03",
 					"targetIndexes" : 
 					[
-						27,
-						28
+						34,
+						35
 					]
 				},
 				{
@@ -356,8 +356,8 @@
 					"source" : "_Exercise/04",
 					"targetIndexes" : 
 					[
-						29,
-						30
+						36,
+						37
 					]
 				},
 				{
@@ -372,8 +372,8 @@
 					"source" : "_Exercise/05",
 					"targetIndexes" : 
 					[
-						31,
-						32
+						38,
+						39
 					]
 				},
 				{
@@ -388,9 +388,9 @@
 					"source" : "_Exercise/06",
 					"targetIndexes" : 
 					[
-						33,
-						34,
-						35
+						40,
+						41,
+						42
 					]
 				},
 				{
@@ -405,8 +405,8 @@
 					"source" : "_Exercise/07",
 					"targetIndexes" : 
 					[
-						36,
-						37
+						43,
+						44
 					]
 				},
 				{
@@ -414,7 +414,8 @@
 					"childIndexes" : 
 					[
 						24,
-						25
+						25,
+						26
 					],
 					"jsonFile" : "directory-_NewExercise-Debug-d3ea2088a6c71a7884ab.json",
 					"minimumCMakeVersion" : 
@@ -437,11 +438,11 @@
 					"source" : "_NewExercise/01-Numerate",
 					"targetIndexes" : 
 					[
-						52,
-						53,
-						56,
-						57,
-						58
+						59,
+						60,
+						63,
+						64,
+						65
 					]
 				},
 				{
@@ -457,10 +458,49 @@
 					"targetIndexes" : 
 					[
 						2,
-						10,
-						21,
-						22,
-						23
+						12,
+						26,
+						27,
+						30
+					]
+				},
+				{
+					"build" : "_NewExercise/03-Dynamic",
+					"childIndexes" : 
+					[
+						27
+					],
+					"jsonFile" : "directory-_NewExercise.03-Dynamic-Debug-b7c1883e212f8b565096.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 23,
+					"projectIndex" : 0,
+					"source" : "_NewExercise/03-Dynamic",
+					"targetIndexes" : 
+					[
+						11,
+						17,
+						23,
+						28,
+						29
+					]
+				},
+				{
+					"build" : "_NewExercise/03-Dynamic/extra",
+					"jsonFile" : "directory-_NewExercise.03-Dynamic.extra-Debug-ecc7fa0069949611aa94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 26,
+					"projectIndex" : 0,
+					"source" : "_NewExercise/03-Dynamic/extra",
+					"targetIndexes" : 
+					[
+						9,
+						20
 					]
 				}
 			],
@@ -495,7 +535,9 @@
 						22,
 						23,
 						24,
-						25
+						25,
+						26,
+						27
 					],
 					"name" : "2024_CPP_Learning",
 					"targetIndexes" : 
@@ -558,7 +600,14 @@
 						55,
 						56,
 						57,
-						58
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65
 					]
 				}
 			],
@@ -628,10 +677,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 27,
+					"id" : "01-steal::@3364eb7f240183c73433",
+					"jsonFile" : "target-01-steal-Debug-102effed7b128de21585.json",
+					"name" : "01-steal",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 12,
 					"id" : "01-template::@00d93a632cc823064111",
 					"jsonFile" : "target-01-template-Debug-86f2a151553979200eac.json",
 					"name" : "01-template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "01-triangle::@79cf2a3d0a61ddffe9ff",
+					"jsonFile" : "target-01-triangle-Debug-763a798fcf78895d2f49.json",
+					"name" : "01-triangle",
 					"projectIndex" : 0
 				},
 				{
@@ -670,6 +733,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 26,
+					"id" : "02-missile::@79cf2a3d0a61ddffe9ff",
+					"jsonFile" : "target-02-missile-Debug-f793b9fb4444d7b6f46c.json",
+					"name" : "02-missile",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "02-object::@32762c7c9cc279b4244e",
 					"jsonFile" : "target-02-object-Debug-dc7e59f8d8f3c32adb34.json",
@@ -684,6 +754,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 27,
+					"id" : "02-stealPro::@3364eb7f240183c73433",
+					"jsonFile" : "target-02-stealPro-Debug-26f709c29171f5612208.json",
+					"name" : "02-stealPro",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 12,
 					"id" : "02-stl::@00d93a632cc823064111",
 					"jsonFile" : "target-02-stl-Debug-dc06efb8e0633c13b9f7.json",
@@ -695,6 +772,13 @@
 					"id" : "03-abstract::@93998184b4aba35339ab",
 					"jsonFile" : "target-03-abstract-Debug-abb73951ee24099938e2.json",
 					"name" : "03-abstract",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "03-distance::@79cf2a3d0a61ddffe9ff",
+					"jsonFile" : "target-03-distance-Debug-d79139f52454842d40b9.json",
+					"name" : "03-distance",
 					"projectIndex" : 0
 				},
 				{
@@ -723,6 +807,20 @@
 					"id" : "04-chess::@16137c7c6c57b35bfb17",
 					"jsonFile" : "target-04-chess-Debug-44373103eba5069e1b5e.json",
 					"name" : "04-chess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "04-sail::@79cf2a3d0a61ddffe9ff",
+					"jsonFile" : "target-04-sail-Debug-e4d279b699d8047203a2.json",
+					"name" : "04-sail",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "05-optimalAdding::@79cf2a3d0a61ddffe9ff",
+					"jsonFile" : "target-05-optimalAdding-Debug-62345692472aa66f4b6d.json",
+					"name" : "05-optimalAdding",
 					"projectIndex" : 0
 				},
 				{
