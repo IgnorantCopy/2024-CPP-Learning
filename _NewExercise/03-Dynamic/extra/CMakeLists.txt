@@ -1,2 +1,5 @@
 add_executable(01-steal 01-steal.cpp)
 add_executable(02-stealPro 02-stealPro.cpp)
+add_executable(03-subSequential 03-subSequential.cpp)
+add_executable(05-01bag 05-01bag.cpp)
+add_executable(08-rain 08-rain.cpp)

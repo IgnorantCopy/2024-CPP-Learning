@@ -1,4 +1,4 @@
-# Install script for directory: D:/codes/2024-CPP-Learning/_NewExercise
+# Install script for directory: D:/codes/2024-CPP-Learning/_NewExercise/04-Search
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,30 +35,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "D:/Program Files (x86)/CLion/bin/mingw/bin/objdump.exe")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/01-Numerate/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/02-Recursive/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/03-Dynamic/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/04-Search/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/codes/2024-CPP-Learning/cmake-build-debug/_NewExercise/05-Graph/cmake_install.cmake")
 endif()
 

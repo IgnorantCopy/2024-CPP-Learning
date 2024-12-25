@@ -1,0 +1,5 @@
+add_executable(01-frag 01-frag.cpp)
+add_executable(02-stick 02-stick.cpp)
+add_executable(03-cow 03-cow.cpp)
+add_executable(04-castle 04-castle.cpp)
+add_executable(05-princess 05-princess.cpp)

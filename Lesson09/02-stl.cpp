@@ -13,7 +13,7 @@ using namespace std;
 /*
  * What is included in the Standard Template Library (STL)?
  *  > Volumes: vector, list, queue, stack, map, set, etc.
- *      * vector: dynamic array     - get elements at any position, add and delete elements at the end
+ *      * vector: dynamic arr     - get elements at any position, add and delete elements at the end
  *      * list: doubly linked list  - insert and delete elements at any position
  *      * deque: segmented continuous spatial structure     - get elements at any position, add and delete elements
  *                                                              at the beginning and the end
